@@ -1,0 +1,961 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Jun  9 07:54:31 2023
+# Process ID: 11608
+# Current directory: D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/synth_1/top.vds
+# Journal file: D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2520 
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:18]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:19]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:20]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:21]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:22]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:23]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:24]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:26]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:27]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:28]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:29]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:31]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:32]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:33]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:34]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:35]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:191]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:192]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:193]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:194]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:229]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:231]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:232]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:233]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:234]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:235]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:236]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:237]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:238]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:239]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:240]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:241]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:242]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:243]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:244]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:245]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 342.336 ; gain = 112.598
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:37]
+INFO: [Synth 8-638] synthesizing module 'freqdiv_27bit_BinUpCnt' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_27bit_BinUpCnt.v:24]
+INFO: [Synth 8-256] done synthesizing module 'freqdiv_27bit_BinUpCnt' (1#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_27bit_BinUpCnt.v:24]
+INFO: [Synth 8-638] synthesizing module 'freqdiv_100Hz' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_1Hz.v:24]
+	Parameter divisor bound to: 28'b0000000001111010000100100000 
+INFO: [Synth 8-256] done synthesizing module 'freqdiv_100Hz' (2#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_1Hz.v:24]
+INFO: [Synth 8-638] synthesizing module 'debounce_circuit' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/debounce_circuit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'debounce_circuit' (3#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/debounce_circuit.v:23]
+INFO: [Synth 8-638] synthesizing module 'KeyboardDecoder' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardDecoder.v:1]
+	Parameter INIT bound to: 2'b00 
+	Parameter WAIT_FOR_SIGNAL bound to: 2'b01 
+	Parameter GET_SIGNAL_DOWN bound to: 2'b10 
+	Parameter WAIT_RELEASE bound to: 2'b11 
+	Parameter IS_INIT bound to: 8'b10101010 
+	Parameter IS_EXTEND bound to: 8'b11100000 
+	Parameter IS_BREAK bound to: 8'b11110000 
+INFO: [Synth 8-638] synthesizing module 'KeyboardCtrl' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:1]
+	Parameter SYSCLK_FREQUENCY_HZ bound to: 100000000 - type: integer 
+	Parameter RESET bound to: 3'b000 
+	Parameter SEND_CMD bound to: 3'b001 
+	Parameter WAIT_ACK bound to: 3'b010 
+	Parameter WAIT_KEYIN bound to: 3'b011 
+	Parameter GET_BREAK bound to: 3'b100 
+	Parameter GET_EXTEND bound to: 3'b101 
+	Parameter RESET_WAIT_BAT bound to: 3'b110 
+	Parameter CMD_RESET bound to: 8'b11111111 
+	Parameter CMD_SET_STATUS_LEDS bound to: 8'b11101101 
+	Parameter RSP_ACK bound to: 8'b11111010 
+	Parameter RSP_BAT_PASS bound to: 8'b10101010 
+	Parameter BREAK_CODE bound to: 8'b11110000 
+	Parameter EXTEND_CODE bound to: 8'b11100000 
+	Parameter CAPS_LOCK bound to: 8'b01011000 
+	Parameter NUM_LOCK bound to: 8'b01110111 
+	Parameter SCR_LOCK bound to: 8'b01111110 
+INFO: [Synth 8-638] synthesizing module 'Ps2Interface' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:164]
+	Parameter SYSCLK_FREQUENCY_HZ bound to: 100000000 - type: integer 
+	Parameter CLOCK_CNT_100US bound to: 10000 - type: integer 
+	Parameter CLOCK_CNT_20US bound to: 2000 - type: integer 
+	Parameter DEBOUNCE_DELAY bound to: 15 - type: integer 
+	Parameter BITS_NUM bound to: 11 - type: integer 
+	Parameter parity_table bound to: 256'b1001011001101001011010011001011001101001100101101001011001101001011010011001011010010110011010011001011001101001011010011001011001101001100101101001011001101001100101100110100101101001100101101001011001101001011010011001011001101001100101101001011001101001 
+	Parameter IDLE bound to: 4'b0000 
+	Parameter RX_NEG_EDGE bound to: 4'b0001 
+	Parameter RX_CLK_LOW bound to: 4'b0010 
+	Parameter RX_CLK_HIGH bound to: 4'b0011 
+	Parameter TX_FORCE_CLK_LOW bound to: 4'b0100 
+	Parameter TX_BRING_DATA_LOW bound to: 4'b0101 
+	Parameter TX_RELEASE_CLK bound to: 4'b0110 
+	Parameter TX_WAIT_FIRTS_NEG_EDGE bound to: 4'b0111 
+	Parameter TX_CLK_LOW bound to: 4'b1000 
+	Parameter TX_WAIT_POS_EDGE bound to: 4'b1001 
+	Parameter TX_CLK_HIGH bound to: 4'b1010 
+	Parameter TX_WAIT_POS_EDGE_BEFORE_ACK bound to: 4'b1011 
+	Parameter TX_WAIT_ACK bound to: 4'b1100 
+	Parameter TX_RECEIVED_ACK bound to: 4'b1101 
+	Parameter TX_ERROR_NO_ACK bound to: 4'b1110 
+INFO: [Synth 8-638] synthesizing module 'IOBUF' [D:/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:22655]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IOBUF' (4#1) [D:/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:22655]
+INFO: [Synth 8-256] done synthesizing module 'Ps2Interface' (5#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:164]
+INFO: [Synth 8-256] done synthesizing module 'KeyboardCtrl' (6#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:1]
+INFO: [Synth 8-226] default block is never used [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardDecoder.v:71]
+INFO: [Synth 8-256] done synthesizing module 'KeyboardDecoder' (7#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardDecoder.v:1]
+INFO: [Synth 8-638] synthesizing module 'keyboard_in_fsm' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/keyboard_in_fsm.v:38]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/keyboard_in_fsm.v:71]
+INFO: [Synth 8-256] done synthesizing module 'keyboard_in_fsm' (8#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/keyboard_in_fsm.v:38]
+INFO: [Synth 8-638] synthesizing module 'ELEV_in_btn' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:23]
+	Parameter max bound to: 100000000 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:53]
+INFO: [Synth 8-256] done synthesizing module 'ELEV_in_btn' (9#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:23]
+INFO: [Synth 8-638] synthesizing module 'ELEV_out_btn' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_out_btn.v:23]
+	Parameter max bound to: 100000000 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_out_btn.v:80]
+INFO: [Synth 8-256] done synthesizing module 'ELEV_out_btn' (10#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_out_btn.v:23]
+INFO: [Synth 8-638] synthesizing module 'FSM' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:23]
+	Parameter max bound to: 100000000 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:268]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:309]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:346]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:402]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:448]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:482]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:519]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:556]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:593]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:630]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:672]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:244]
+INFO: [Synth 8-256] done synthesizing module 'FSM' (11#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:23]
+INFO: [Synth 8-638] synthesizing module 'door' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/door.v:23]
+	Parameter max bound to: 100000000 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/door.v:47]
+INFO: [Synth 8-256] done synthesizing module 'door' (12#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/door.v:23]
+INFO: [Synth 8-638] synthesizing module 'led' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/led_display.v:23]
+	Parameter max bound to: 100000000 - type: integer 
+	Parameter max_5HZ bound to: 10000000 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/led_display.v:146]
+WARNING: [Synth 8-6014] Unused sequential element clk_5HZ_reg was removed.  [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/led_display.v:94]
+WARNING: [Synth 8-6014] Unused sequential element n_5HZ_reg was removed.  [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/led_display.v:92]
+INFO: [Synth 8-256] done synthesizing module 'led' (13#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/led_display.v:23]
+INFO: [Synth 8-226] default block is never used [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:401]
+INFO: [Synth 8-638] synthesizing module 'scan_ctrl' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/scan_control.v:23]
+INFO: [Synth 8-226] default block is never used [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/scan_control.v:31]
+INFO: [Synth 8-256] done synthesizing module 'scan_ctrl' (14#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/scan_control.v:23]
+INFO: [Synth 8-638] synthesizing module 'BCD_ToSSD_decoder' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/BCD_to_SSD_decoder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'BCD_ToSSD_decoder' (15#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/BCD_to_SSD_decoder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'top' (16#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:37]
+WARNING: [Synth 8-3331] design ELEV_out_btn has unconnected port press_in1
+WARNING: [Synth 8-3331] design ELEV_out_btn has unconnected port press_in2
+WARNING: [Synth 8-3331] design ELEV_out_btn has unconnected port press_in3
+WARNING: [Synth 8-3331] design ELEV_out_btn has unconnected port press_in4
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 389.293 ; gain = 159.555
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 389.293 ; gain = 159.555
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/constrs_1/new/final_project_ver2.xdc]
+Finished Parsing XDC File [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/constrs_1/new/final_project_ver2.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/constrs_1/new/final_project_ver2.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 725.441 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 725.441 ; gain = 495.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 725.441 ; gain = 495.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 725.441 ; gain = 495.703
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "t_flag" won't be mapped to RAM because address size (28) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_1Hz.v:37]
+INFO: [Synth 8-5544] ROM "pb_debounced_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Ps2Interface'
+INFO: [Synth 8-5544] ROM "ps2_clk_s" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ps2_data_s" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ps2_data_en_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "busy" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ps2_clk_out_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ps2_clk_en_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "state_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'KeyboardCtrl'
+INFO: [Synth 8-5544] ROM "lock_status" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "is_extend" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'keyboard_in_fsm'
+INFO: [Synth 8-5544] ROM "next_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "direction" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "direction" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pointer" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state8" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state8" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state8" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state8" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state8" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state8" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state8" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state33" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state33" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state33" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state33" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state33" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state33" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state33" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state33" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state33" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state33" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "jump_state33" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Common 17-14] Message 'Synth 8-5544' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5546] ROM "f1u" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "f2u" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "f2d" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "f3u" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "f3d" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "f4d" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "to1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "to2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "to3" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "to4" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                  000000000000001 |                             0000
+        TX_FORCE_CLK_LOW |                  000000000000010 |                             0100
+       TX_BRING_DATA_LOW |                  000000000100000 |                             0101
+          TX_RELEASE_CLK |                  000000001000000 |                             0110
+  TX_WAIT_FIRTS_NEG_EDGE |                  000000010000000 |                             0111
+              TX_CLK_LOW |                  000000100000000 |                             1000
+        TX_WAIT_POS_EDGE |                  000001000000000 |                             1001
+TX_WAIT_POS_EDGE_BEFORE_ACK |                  000010000000000 |                             1011
+             TX_WAIT_ACK |                  001000000000000 |                             1100
+         TX_RECEIVED_ACK |                  010000000000000 |                             1101
+         TX_ERROR_NO_ACK |                  100000000000000 |                             1110
+             TX_CLK_HIGH |                  000100000000000 |                             1010
+             RX_NEG_EDGE |                  000000000000100 |                             0001
+              RX_CLK_LOW |                  000000000001000 |                             0010
+             RX_CLK_HIGH |                  000000000010000 |                             0011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'Ps2Interface'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   RESET |                              000 |                              000
+                SEND_CMD |                              001 |                              001
+                WAIT_ACK |                              010 |                              010
+          RESET_WAIT_BAT |                              011 |                              110
+              WAIT_KEYIN |                              100 |                              011
+              GET_EXTEND |                              101 |                              101
+               GET_BREAK |                              110 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'KeyboardCtrl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0000 |                            00000
+                 iSTATE0 |                             0001 |                            00010
+                 iSTATE1 |                             0010 |                            00100
+                 iSTATE2 |                             0011 |                            00101
+                 iSTATE3 |                             0100 |                            00110
+                 iSTATE4 |                             0101 |                            00111
+                 iSTATE5 |                             0110 |                            01001
+                 iSTATE6 |                             0111 |                            10010
+                 iSTATE7 |                             1000 |                            10100
+                 iSTATE8 |                             1001 |                            10110
+                 iSTATE9 |                             1010 |                            11000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'keyboard_in_fsm'
+WARNING: [Synth 8-327] inferring latch for variable 'digit3_reg' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:423]
+WARNING: [Synth 8-327] inferring latch for variable 'digit1_reg' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:426]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 725.441 ; gain = 495.703
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 5     
+	   2 Input     27 Bit       Adders := 1     
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	              512 Bit    Registers := 1     
+	               31 Bit    Registers := 5     
+	               15 Bit    Registers := 1     
+	               14 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 6     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 47    
++---Muxes : 
+	   2 Input    512 Bit        Muxes := 1     
+	   2 Input     31 Bit        Muxes := 5     
+	  33 Input     15 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 3     
+	  15 Input     14 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   4 Input     10 Bit        Muxes := 1     
+	   7 Input      8 Bit        Muxes := 1     
+	  11 Input      5 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 18    
+	   7 Input      5 Bit        Muxes := 18    
+	   2 Input      5 Bit        Muxes := 16    
+	   2 Input      4 Bit        Muxes := 25    
+	  32 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 38    
+	   6 Input      4 Bit        Muxes := 2     
+	  25 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 17    
+	   2 Input      3 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 46    
+	   4 Input      2 Bit        Muxes := 1     
+	  16 Input      2 Bit        Muxes := 2     
+	  18 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 115   
+	  15 Input      1 Bit        Muxes := 6     
+	   7 Input      1 Bit        Muxes := 11    
+	   4 Input      1 Bit        Muxes := 12    
+	  18 Input      1 Bit        Muxes := 19    
+	   3 Input      1 Bit        Muxes := 6     
+	   5 Input      1 Bit        Muxes := 1     
+	  16 Input      1 Bit        Muxes := 3     
+	  12 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+	  12 Input      1 Bit        Muxes := 10    
+Module freqdiv_27bit_BinUpCnt 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     27 Bit       Adders := 1     
++---Registers : 
+	               15 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module freqdiv_100Hz 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module debounce_circuit 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module Ps2Interface 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	               14 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	  33 Input     15 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 3     
+	  15 Input     14 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 8     
+	  15 Input      1 Bit        Muxes := 6     
+Module KeyboardCtrl 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   7 Input      8 Bit        Muxes := 1     
+	  25 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 7     
+Module KeyboardDecoder 
+Detailed RTL Component Info : 
++---Registers : 
+	              512 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input    512 Bit        Muxes := 1     
+	   4 Input     10 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+	   4 Input      1 Bit        Muxes := 7     
+Module keyboard_in_fsm 
+Detailed RTL Component Info : 
++---Muxes : 
+	  11 Input      5 Bit        Muxes := 1     
+	  32 Input      4 Bit        Muxes := 1     
+Module ELEV_in_btn 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	  18 Input      1 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 8     
+Module ELEV_out_btn 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	  18 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 24    
+	   3 Input      1 Bit        Muxes := 4     
+Module FSM 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 18    
+	   7 Input      5 Bit        Muxes := 18    
+	   2 Input      5 Bit        Muxes := 16    
+	   4 Input      4 Bit        Muxes := 34    
+	   2 Input      4 Bit        Muxes := 19    
+	   6 Input      4 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 16    
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 46    
+	   5 Input      2 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	  16 Input      2 Bit        Muxes := 2     
+	  18 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 52    
+	   5 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+	  16 Input      1 Bit        Muxes := 3     
+	   7 Input      1 Bit        Muxes := 4     
+	  18 Input      1 Bit        Muxes := 3     
+Module door 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	  18 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 7     
+	   3 Input      1 Bit        Muxes := 2     
+Module led 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 1     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	  18 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 4     
+Module scan_ctrl 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "U_100Hz/t_flag" won't be mapped to RAM because address size (28) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element U_100Hz/cnt_reg was removed.  [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_1Hz.v:37]
+INFO: [Synth 8-3886] merging instance 'U_keyboard/inst/lock_status_reg[2]' (FDCE) to 'U_keyboard/inst/lock_status_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U_keyboard/inst/lock_status_reg[1]' (FDCE) to 'U_keyboard/inst/lock_status_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U_keyboard/\inst/lock_status_reg[0] )
+INFO: [Synth 8-3886] merging instance 'U_keyboard/inst/tx_data_reg[4]' (FDCE) to 'U_keyboard/inst/tx_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U_keyboard/inst/tx_data_reg[7]' (FDCE) to 'U_keyboard/inst/tx_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U_keyboard/inst/tx_data_reg[5]' (FDCE) to 'U_keyboard/inst/tx_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U_keyboard/inst/tx_data_reg[6]' (FDCE) to 'U_keyboard/inst/tx_data_reg[3]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\digit3_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U_keyboard/inst/tx_data_reg[2]' (FDCE) to 'U_keyboard/inst/tx_data_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U_keyboard/inst/tx_data_reg[1]' (FDCE) to 'U_keyboard/inst/tx_data_reg[0]'
+WARNING: [Synth 8-3332] Sequential element (inst/lock_status_reg[0]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (inst/is_break_reg) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (been_break_reg) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_reg[8]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[511]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[510]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[509]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[508]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[507]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[506]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[505]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[504]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[503]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[502]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[501]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[500]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[499]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[498]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[497]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[496]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[495]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[494]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[493]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[492]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[491]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[490]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[489]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[488]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[487]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[486]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[485]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[484]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[483]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[482]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[481]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[480]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[479]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[478]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[477]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[476]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[475]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[474]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[473]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[472]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[471]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[470]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[469]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[468]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[467]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[466]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[465]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[464]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[463]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[462]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[461]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[460]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[459]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[458]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[457]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[456]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[455]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[454]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[453]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[452]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[451]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[450]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[449]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[448]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[447]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[446]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[445]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[444]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[443]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[442]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[441]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[440]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[439]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[438]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[437]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[436]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[435]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[434]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[433]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[432]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[431]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[430]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[429]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[428]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[427]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[426]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[425]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[424]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[423]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[422]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[421]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[420]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[419]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[418]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[417]) is unused and will be removed from module KeyboardDecoder.
+WARNING: [Synth 8-3332] Sequential element (key_down_reg[416]) is unused and will be removed from module KeyboardDecoder.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'digit1_reg[0]/Q' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:426]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'VCC' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:426]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:426]
+INFO: [Synth 8-3886] merging instance 'digit1_reg[2]' (LD) to 'digit1_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\digit1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\digit1_reg[3] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 725.441 ; gain = 495.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------+-----------------------------+---------------+----------------+
+|Module Name  | RTL Object                  | Depth x Width | Implemented As | 
++-------------+-----------------------------+---------------+----------------+
+|Ps2Interface | parity_table                | 256x1         | LUT            | 
+|Ps2Interface | parity_table                | 256x1         | LUT            | 
+|FSM          | now_floor                   | 32x2          | LUT            | 
+|KeyboardCtrl | Ps2Interface_i/parity_table | 256x1         | LUT            | 
+|KeyboardCtrl | Ps2Interface_i/parity_table | 256x1         | LUT            | 
+|top          | U_FSM/now_floor             | 32x2          | LUT            | 
++-------------+-----------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 731.199 ; gain = 501.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 732.074 ; gain = 502.336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I118[2] with 1st driver pin 'i_668/O' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I118[2] with 2nd driver pin 'VCC' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I118[2] is connected to constant driver, other driver is ignored [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I118[1] with 1st driver pin 'i_671/O' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I118[1] with 2nd driver pin 'GND' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I118[1] is connected to constant driver, other driver is ignored [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I118[0] with 1st driver pin 'i_673/O' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I118[0] with 2nd driver pin 'GND' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I118[0] is connected to constant driver, other driver is ignored [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 767.559 ; gain = 537.820
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5365] Flop U_keyboard/inst/Ps2Interface_i/ps2_clk_en_reg is being inverted and renamed to U_keyboard/inst/Ps2Interface_i/ps2_clk_en_reg_inv.
+INFO: [Synth 8-5365] Flop U_keyboard/inst/Ps2Interface_i/ps2_data_en_reg is being inverted and renamed to U_keyboard/inst/Ps2Interface_i/ps2_data_en_reg_inv.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 767.559 ; gain = 537.820
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 767.559 ; gain = 537.820
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 767.559 ; gain = 537.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 767.559 ; gain = 537.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 767.559 ; gain = 537.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 767.559 ; gain = 537.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    55|
+|3     |LUT1   |     6|
+|4     |LUT2   |    83|
+|5     |LUT3   |    32|
+|6     |LUT4   |    84|
+|7     |LUT5   |    78|
+|8     |LUT6   |   228|
+|9     |MUXF7  |     3|
+|10    |MUXF8  |     1|
+|11    |FDCE   |   153|
+|12    |FDPE   |     7|
+|13    |FDRE   |   195|
+|14    |LD     |     3|
+|15    |IBUF   |     4|
+|16    |IOBUF  |     2|
+|17    |OBUF   |    24|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------------+-----------------------+------+
+|      |Instance             |Module                 |Cells |
++------+---------------------+-----------------------+------+
+|1     |top                  |                       |   959|
+|2     |  U_100Hz            |freqdiv_100Hz          |    73|
+|3     |  U_FSM              |FSM                    |   221|
+|4     |  U_dcL              |debounce_circuit       |     6|
+|5     |  U_dcR              |debounce_circuit_0     |     6|
+|6     |  U_door             |door                   |    50|
+|7     |  U_fd_ctrl          |freqdiv_27bit_BinUpCnt |    36|
+|8     |  U_in_btn           |ELEV_in_btn            |    54|
+|9     |  U_key_in           |keyboard_in_fsm        |    30|
+|10    |  U_keyboard         |KeyboardDecoder        |   274|
+|11    |    inst             |KeyboardCtrl           |   244|
+|12    |      Ps2Interface_i |Ps2Interface           |   211|
+|13    |  U_out_btn          |ELEV_out_btn           |   117|
+|14    |  u_led              |led                    |    60|
++------+---------------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 767.559 ; gain = 537.820
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 12 critical warnings and 534 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 767.559 ; gain = 201.672
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 767.559 ; gain = 537.820
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 68 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  LD => LDCE: 3 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+207 Infos, 146 Warnings, 12 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 767.559 ; gain = 541.836
+INFO: [Common 17-1381] The checkpoint 'D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 767.559 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Jun  9 07:55:04 2023...
