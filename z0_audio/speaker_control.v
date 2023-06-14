@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 module speaker_control(
   clk,  // clock from the crystal
-  rst_n,  // active low reset
+  rst,  // active low reset
   audio_in_left, // left channel audio data input
   audio_in_right, // right channel audio data input
   audio_mclk, // master clock
@@ -31,7 +31,7 @@ module speaker_control(
 
 // I/O declaration
 input clk;  // clock from the crystal
-input rst_n;  // active low reset
+input rst;  // active low reset
 input [15:0] audio_in_left; // left channel audio data input
 input [15:0] audio_in_right; // right channel audio data input
 output audio_mclk; // master clock
@@ -48,8 +48,8 @@ reg [15:0] audio_left, audio_right;
 // Counter for the clock divider
 assign clk_cnt_next = clk_cnt + 1'b1;
 
-always @(posedge clk or negedge rst_n)
-  if (~rst_n)
+always @(posedge clk or posedge rst)
+  if (rst)
     clk_cnt <= 9'd0;
   else
     clk_cnt <= clk_cnt_next;
@@ -60,8 +60,8 @@ assign audio_lrck = clk_cnt[8];
 assign audio_sck = 1'b1; // use internal serial clock mode
 
 // audio input data buffer
-always @(posedge clk_cnt[4] or negedge rst_n)
-  if (~rst_n)
+always @(posedge clk_cnt[4] or posedge rst)
+  if (rst)
   begin
     audio_left <= 16'd0;
     audio_right <= 16'd0;

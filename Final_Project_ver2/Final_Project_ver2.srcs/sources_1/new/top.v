@@ -53,18 +53,18 @@ module top(
     output  out2_down_led,            //?梯外的2?↓led
     output  out3_up_led,            //?梯外的3?↑led
     output  out3_down_led,            //?梯外的3?↓led
-    output  out4_down_led           //?梯外的4?↓led    
-//    /* vga output */
-//    output [3:0] vgaRed,     
-//    output [3:0] vgaGreen,
-//    output [3:0] vgaBlue,
-//    output hsync,
-//    output vsync,
-//    /* audio output */
-//    output audio_mclk, // master clock
-//    output audio_lrck, // left-right clock
-//    output audio_sck, // serial clock
-//    output audio_sdin // serial audio data input                                              
+    output  out4_down_led,           //?梯外的4?↓led    
+    /* vga output */
+    output [3:0] vgaRed,     
+    output [3:0] vgaGreen,
+    output [3:0] vgaBlue,
+    output hsync,
+    output vsync,
+    /* audio output */
+    output audio_mclk, // master clock
+    output audio_lrck, // left-right clock
+    output audio_sck, // serial clock
+    output audio_sdin // serial audio data input                                              
     );
     
     wire       clk_out;
@@ -423,8 +423,29 @@ module top(
             2'b00: digit3 = 4'd6;
             2'b01: digit3 = 4'd10;
             2'b10: digit3 = 4'd11;
-            default: digit1 = 4'd8;
+            default: digit3 = 4'd8;
         endcase               
+    
+    top_vga_display U_VGA(
+        .clk                (clk),
+        .rst                (rst),
+        .now_floor          (now_floor),
+        .vgaRed             (vgaRed),
+        .vgaGreen           (vgaGreen),
+        .vgaBlue            (vgaBlue),
+        .hsync              (hsync),
+        .vsync              (vsync)
+    );
+    
+    speaker U_speaker(
+        .clk                (clk),  // clock from the crystal
+        .rst                (rst),  // active low reset
+        .state              (state),
+        .audio_mclk         (audio_mclk), // master clock
+        .audio_lrck         (audio_lrck), // left-right clock
+        .audio_sck          (audio_sck), // serial clock
+        .audio_sdin         (audio_sdin) // serial audio data input
+    );
     
     scan_ctrl U_sc(
         .ssd_ctrl_en        (clk_ctrl),

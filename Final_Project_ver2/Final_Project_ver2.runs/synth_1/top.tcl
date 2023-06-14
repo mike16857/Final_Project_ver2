@@ -22,29 +22,58 @@ create_project -in_memory -part xc7a35tcpg236-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.cache/wt [current_project]
-set_property parent.project_path D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.xpr [current_project]
+set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
+set_property webtalk.parent_dir C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.cache/wt [current_project]
+set_property parent.project_path C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.xpr [current_project]
+set_property XPM_LIBRARIES XPM_MEMORY [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo d:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.cache/ip [current_project]
+set_property ip_output_repo c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
+add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/zz1f.coe
+add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/zz2f.coe
+add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/zz3f.coe
+add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/zz4f.coe
+add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/out1.coe
+add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/out2.coe
+add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/out3.coe
+add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/out4.coe
 read_verilog -library xil_defaultlib {
-  D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/BCD_to_SSD_decoder.v
-  D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v
-  D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_out_btn.v
-  D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v
-  D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v
-  D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardDecoder.v
-  D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v
-  D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/debounce_circuit.v
-  D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/door.v
-  D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_1Hz.v
-  D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_27bit_BinUpCnt.v
-  D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/keyboard_in_fsm.v
-  D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/led_display.v
-  D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/scan_control.v
-  D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/BCD_to_SSD_decoder.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_out_btn.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardDecoder.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/clock_divisor.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/debounce_circuit.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/door.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_1Hz.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_27bit_BinUpCnt.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/keyboard_in_fsm.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/led_display.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/mem_addr_gen.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z0_audio/note_gen.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/scan_control.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z0_audio/speaker.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z0_audio/speaker_control.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/vga.v
+  C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v
 }
+read_ip -quiet c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_3/blk_mem_gen_3.xci
+set_property used_in_implementation false [get_files -all c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_3/blk_mem_gen_3_ooc.xdc]
+
+read_ip -quiet c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2.xci
+set_property used_in_implementation false [get_files -all c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2_ooc.xdc]
+
+read_ip -quiet c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_1_1/blk_mem_gen_1.xci
+set_property used_in_implementation false [get_files -all c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_1_1/blk_mem_gen_1_ooc.xdc]
+
+read_ip -quiet c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property used_in_implementation false [get_files -all c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_ooc.xdc]
+
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
 # design are intentionally left as such for best results. Dcp files will be
@@ -53,9 +82,11 @@ read_verilog -library xil_defaultlib {
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/constrs_1/new/final_project_ver2.xdc
-set_property used_in_implementation false [get_files D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/constrs_1/new/final_project_ver2.xdc]
+read_xdc C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/constrs_1/new/final_project_ver2.xdc
+set_property used_in_implementation false [get_files C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/constrs_1/new/final_project_ver2.xdc]
 
+read_xdc dont_touch.xdc
+set_property used_in_implementation false [get_files dont_touch.xdc]
 
 synth_design -top top -part xc7a35tcpg236-1
 

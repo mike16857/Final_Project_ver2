@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-| Date             : Fri Jun  9 07:55:47 2023
-| Host             : LAPTOP-4Q5462B7 running 64-bit major release  (build 9200)
+| Date             : Wed Jun 14 23:16:04 2023
+| Host             : DESKTOP-BFEUL52 running 64-bit major release  (build 9200)
 | Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
 | Design           : top
 | Device           : xc7a35tcpg236-1
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+----------------------------------+
-| Total On-Chip Power (W)  | 18.243 (Junction temp exceeded!) |
+| Total On-Chip Power (W)  | 28.896 (Junction temp exceeded!) |
 | Design Power Budget (W)  | Unspecified*                     |
 | Power Budget Margin (W)  | NA                               |
-| Dynamic (W)              | 17.856                           |
-| Device Static (W)        | 0.387                            |
+| Dynamic (W)              | 28.398                           |
+| Device Static (W)        | 0.498                            |
 | Effective TJA (C/W)      | 5.0                              |
 | Max Ambient (C)          | 0.0                              |
-| Junction Temperature (C) | 116.2                            |
+| Junction Temperature (C) | 125.0                            |
 | Confidence Level         | Low                              |
 | Setting File             | ---                              |
 | Simulation Activity File | ---                              |
@@ -52,17 +52,19 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     1.048 |      954 |       --- |             --- |
-|   LUT as Logic |     0.831 |      455 |     20800 |            2.19 |
-|   CARRY4       |     0.105 |       55 |      8150 |            0.67 |
-|   Register     |     0.104 |      358 |     41600 |            0.86 |
+| Slice Logic    |     1.539 |     1330 |       --- |             --- |
+|   LUT as Logic |     1.299 |      665 |     20800 |            3.20 |
+|   Register     |     0.117 |      426 |     41600 |            1.02 |
+|   CARRY4       |     0.113 |       64 |      8150 |            0.79 |
 |   BUFG         |     0.006 |        1 |        32 |            3.13 |
-|   F7/F8 Muxes  |     0.001 |        4 |     32600 |            0.01 |
-|   Others       |     0.000 |       25 |       --- |             --- |
-| Signals        |     1.189 |      785 |       --- |             --- |
-| I/O            |    15.620 |       30 |       106 |           28.30 |
-| Static Power   |     0.387 |          |           |                 |
-| Total          |    18.243 |          |           |                 |
+|   F7/F8 Muxes  |     0.004 |       19 |     32600 |            0.06 |
+|   Others       |     0.000 |       78 |       --- |             --- |
+| Signals        |     2.035 |     1224 |       --- |             --- |
+| Block RAM      |     2.110 |       20 |        50 |           40.00 |
+| DSPs           |     0.286 |        3 |        90 |            3.33 |
+| I/O            |    22.429 |       48 |       106 |           45.28 |
+| Static Power   |     0.498 |          |           |                 |
+| Total          |    28.896 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -72,16 +74,16 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     2.512 |       2.250 |      0.262 |
-| Vccaux    |       1.800 |     0.615 |       0.572 |      0.043 |
-| Vcco33    |       3.300 |     4.418 |       4.417 |      0.001 |
+| Vccint    |       1.000 |     6.144 |       5.798 |      0.347 |
+| Vccaux    |       1.800 |     0.875 |       0.821 |      0.053 |
+| Vcco33    |       3.300 |     6.345 |       6.344 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccbram   |       1.000 |     0.007 |       0.000 |      0.007 |
+| Vccbram   |       1.000 |     0.202 |       0.186 |      0.016 |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
@@ -136,25 +138,87 @@ Table of Contents
 3.1 By Hierarchy
 ----------------
 
-+----------------------+-----------+
-| Name                 | Power (W) |
-+----------------------+-----------+
-| top                  |    17.856 |
-|   U_100Hz            |     0.134 |
-|   U_FSM              |     0.382 |
-|   U_dcL              |     0.000 |
-|   U_dcR              |     0.000 |
-|   U_door             |     0.155 |
-|   U_fd_ctrl          |     0.181 |
-|   U_in_btn           |     0.170 |
-|   U_key_in           |     0.068 |
-|   U_keyboard         |     0.857 |
-|     inst             |     0.850 |
-|       Ps2Interface_i |     0.806 |
-|         IOBUF_inst_0 |     0.276 |
-|         IOBUF_inst_1 |     0.078 |
-|   U_out_btn          |     0.378 |
-|   u_led              |     0.221 |
-+----------------------+-----------+
++------------------------------------------------+-----------+
+| Name                                           | Power (W) |
++------------------------------------------------+-----------+
+| top                                            |    28.398 |
+|   U_100Hz                                      |     0.123 |
+|   U_FSM                                        |     0.530 |
+|   U_VGA                                        |     3.129 |
+|     clk_wiz_0_inst                             |     0.239 |
+|     floor1                                     |     1.146 |
+|       U0                                       |     1.146 |
+|         inst_blk_mem_gen                       |     1.146 |
+|           gnbram.gnativebmg.native_blk_mem_gen |     1.146 |
+|             valid.cstr                         |     1.146 |
+|               bindec_a.bindec_inst_a           |    <0.001 |
+|               has_mux_a.A                      |     0.041 |
+|               ramloop[0].ram.r                 |     0.271 |
+|                 prim_init.ram                  |     0.271 |
+|               ramloop[1].ram.r                 |     0.276 |
+|                 prim_init.ram                  |     0.276 |
+|               ramloop[2].ram.r                 |     0.274 |
+|                 prim_init.ram                  |     0.274 |
+|               ramloop[3].ram.r                 |     0.164 |
+|                 prim_init.ram                  |     0.164 |
+|               ramloop[4].ram.r                 |     0.040 |
+|                 prim_init.ram                  |     0.040 |
+|               ramloop[5].ram.r                 |     0.035 |
+|                 prim_init.ram                  |     0.035 |
+|               ramloop[6].ram.r                 |     0.009 |
+|                 prim_init.ram                  |     0.009 |
+|               ramloop[7].ram.r                 |     0.024 |
+|                 prim_init.ram                  |     0.024 |
+|               ramloop[8].ram.r                 |     0.006 |
+|                 prim_init.ram                  |     0.006 |
+|               ramloop[9].ram.r                 |     0.005 |
+|                 prim_init.ram                  |     0.005 |
+|     floor2                                     |     1.145 |
+|       U0                                       |     1.145 |
+|         inst_blk_mem_gen                       |     1.145 |
+|           gnbram.gnativebmg.native_blk_mem_gen |     1.145 |
+|             valid.cstr                         |     1.145 |
+|               bindec_a.bindec_inst_a           |    <0.001 |
+|               has_mux_a.A                      |     0.021 |
+|               ramloop[0].ram.r                 |     0.273 |
+|                 prim_init.ram                  |     0.273 |
+|               ramloop[1].ram.r                 |     0.274 |
+|                 prim_init.ram                  |     0.274 |
+|               ramloop[2].ram.r                 |     0.278 |
+|                 prim_init.ram                  |     0.278 |
+|               ramloop[3].ram.r                 |     0.178 |
+|                 prim_init.ram                  |     0.178 |
+|               ramloop[4].ram.r                 |     0.040 |
+|                 prim_init.ram                  |     0.040 |
+|               ramloop[5].ram.r                 |     0.036 |
+|                 prim_init.ram                  |     0.036 |
+|               ramloop[6].ram.r                 |     0.009 |
+|                 prim_init.ram                  |     0.009 |
+|               ramloop[7].ram.r                 |     0.024 |
+|                 prim_init.ram                  |     0.024 |
+|               ramloop[8].ram.r                 |     0.006 |
+|                 prim_init.ram                  |     0.006 |
+|               ramloop[9].ram.r                 |     0.005 |
+|                 prim_init.ram                  |     0.005 |
+|     mem_addr_gen_inst                          |     0.393 |
+|     vga_inst                                   |     0.206 |
+|   U_dcL                                        |     0.000 |
+|   U_dcR                                        |     0.000 |
+|   U_display                                    |     0.142 |
+|   U_door                                       |     0.140 |
+|   U_fd_ctrl                                    |     0.109 |
+|   U_in_btn                                     |     0.229 |
+|   U_key_in                                     |     0.066 |
+|   U_keyboard                                   |     0.812 |
+|     inst                                       |     0.805 |
+|       Ps2Interface_i                           |     0.760 |
+|         IOBUF_inst_0                           |     0.275 |
+|         IOBUF_inst_1                           |     0.078 |
+|   U_out_btn                                    |     0.550 |
+|   U_speaker                                    |     0.236 |
+|     Ung                                        |     0.099 |
+|     Usc                                        |     0.138 |
+|   u_led                                        |     0.215 |
++------------------------------------------------+-----------+
 
 

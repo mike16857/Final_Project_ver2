@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-| Date         : Fri Jun  9 07:55:28 2023
-| Host         : LAPTOP-4Q5462B7 running 64-bit major release  (build 9200)
+| Date         : Wed Jun 14 23:15:37 2023
+| Host         : DESKTOP-BFEUL52 running 64-bit major release  (build 9200)
 | Command      : report_drc -file top_drc_opted.rpt -pb top_drc_opted.pb -rpx top_drc_opted.rpx
 | Design       : top
 | Device       : xc7a35tcpg236-1
@@ -24,11 +24,15 @@ Table of Contents
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
-             Violations found: 1
+             Violations found: 9
 +----------+----------+-----------------------------------------------------+------------+
 | Rule     | Severity | Description                                         | Violations |
 +----------+----------+-----------------------------------------------------+------------+
 | CFGBVS-1 | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties | 1          |
+| DPIP-1   | Warning  | Input pipelining                                    | 4          |
+| DPOP-1   | Warning  | PREG Output pipelining                              | 2          |
+| DPOP-2   | Warning  | MREG Output pipelining                              | 1          |
+| DPREG-4  | Warning  | DSP48E1_PregDynOpmodeZmuxP:                         | 1          |
 +----------+----------+-----------------------------------------------------+------------+
 
 2. REPORT DETAILS
@@ -44,6 +48,46 @@ Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_des
  #where value2 is the voltage provided to configuration bank 0
 
 Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+DPIP-1#1 Warning
+Input pipelining  
+DSP U_VGA/mem_addr_gen_inst/pixel_addr0 input U_VGA/mem_addr_gen_inst/pixel_addr0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#2 Warning
+Input pipelining  
+DSP U_VGA/mem_addr_gen_inst/pixel_addr0__0 input U_VGA/mem_addr_gen_inst/pixel_addr0__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#3 Warning
+Input pipelining  
+DSP U_VGA/mem_addr_gen_inst/pixel_addr0__0 input U_VGA/mem_addr_gen_inst/pixel_addr0__0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#4 Warning
+Input pipelining  
+DSP U_VGA/mem_addr_gen_inst/pixel_addr2 input U_VGA/mem_addr_gen_inst/pixel_addr2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+PREG Output pipelining  
+DSP U_VGA/mem_addr_gen_inst/pixel_addr0 output U_VGA/mem_addr_gen_inst/pixel_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#2 Warning
+PREG Output pipelining  
+DSP U_VGA/mem_addr_gen_inst/pixel_addr0__0 output U_VGA/mem_addr_gen_inst/pixel_addr0__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-2#1 Warning
+MREG Output pipelining  
+DSP U_VGA/mem_addr_gen_inst/pixel_addr0__0 multiplier stage U_VGA/mem_addr_gen_inst/pixel_addr0__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPREG-4#1 Warning
+DSP48E1_PregDynOpmodeZmuxP:  
+The DSP48E1 cell U_VGA/mem_addr_gen_inst/pixel_addr0 with the given dynamic OPMODE[6:0] connections may lead to an unregistered asynchronous feedback path without the PREG attribute enabled. Please refer to the user guide and if one of the internal P feedback opmodes is possible for this design the PREG attribute must be set to 1, currently set to 0
 Related violations: <none>
 
 

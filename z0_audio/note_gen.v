@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 module note_gen(
   clk, // clock from crystal
-  rst_n, // active low reset
+  rst, // active low reset
   note_div, // div for note generation
   audio_left, // left sound audio
   audio_right // right sound audio
@@ -28,7 +28,7 @@ module note_gen(
 
 // I/O declaration
 input clk; // clock from crystal
-input rst_n; // active low reset
+input rst; // active low reset
 input [21:0] note_div; // div for note generation
 output [15:0] audio_left; // left sound audio
 output [15:0] audio_right; // right sound audio
@@ -38,8 +38,8 @@ reg [21:0] clk_cnt_next, clk_cnt;
 reg b_clk, b_clk_next;
 
 // Note frequency generation
-always @(posedge clk or negedge rst_n)
-  if (~rst_n)
+always @(posedge clk or posedge rst)
+  if (rst)
   begin
     clk_cnt <= 22'd0;
     b_clk <= 1'b0;

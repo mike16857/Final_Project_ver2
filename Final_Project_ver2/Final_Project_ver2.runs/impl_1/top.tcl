@@ -69,12 +69,17 @@ set rc [catch {
   create_project -in_memory -part xc7a35tcpg236-1
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.cache/wt [current_project]
-  set_property parent.project_path D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.xpr [current_project]
-  set_property ip_output_repo D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.cache/wt [current_project]
+  set_property parent.project_path C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.xpr [current_project]
+  set_property ip_output_repo C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/synth_1/top.dcp
-  read_xdc D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/constrs_1/new/final_project_ver2.xdc
+  set_property XPM_LIBRARIES XPM_MEMORY [current_project]
+  add_files -quiet C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/synth_1/top.dcp
+  read_ip -quiet c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_3/blk_mem_gen_3.xci
+  read_ip -quiet c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2.xci
+  read_ip -quiet c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_1_1/blk_mem_gen_1.xci
+  read_ip -quiet c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+  read_xdc C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/constrs_1/new/final_project_ver2.xdc
   link_design -top top -part xc7a35tcpg236-1
   close_msg_db -file init_design.pb
 } RESULT]
@@ -151,6 +156,7 @@ start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
+  set_property XPM_LIBRARIES XPM_MEMORY [current_project]
   catch { write_mem_info -force top.mmi }
   write_bitstream -force top.bit 
   catch {write_debug_probes -quiet -force top}

@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=D:/Xilinx/SDK/2017.4/bin;D:/Xilinx/Vivado/2017.4/ids_lite/ISE/bin/nt64;D:/Xilinx/Vivado/2017.4/ids_lite/ISE/lib/nt64:D:/Xilinx/Vivado/2017.4/bin
+  PATH=C:/Xilinx/SDK/2017.4/bin;C:/Xilinx/Vivado/2017.4/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.4/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2017.4/bin
 else
-  PATH=D:/Xilinx/SDK/2017.4/bin;D:/Xilinx/Vivado/2017.4/ids_lite/ISE/bin/nt64;D:/Xilinx/Vivado/2017.4/ids_lite/ISE/lib/nt64:D:/Xilinx/Vivado/2017.4/bin:$PATH
+  PATH=C:/Xilinx/SDK/2017.4/bin;C:/Xilinx/Vivado/2017.4/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.4/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2017.4/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/impl_1'
+HD_PWD='C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

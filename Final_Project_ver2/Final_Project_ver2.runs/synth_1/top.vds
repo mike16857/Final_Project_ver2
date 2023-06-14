@@ -2,12 +2,12 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Fri Jun  9 07:54:31 2023
-# Process ID: 11608
-# Current directory: D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/synth_1
+# Start of session at: Wed Jun 14 23:07:38 2023
+# Process ID: 2076
+# Current directory: C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/synth_1
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
-# Log file: D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/synth_1/top.vds
-# Journal file: D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/synth_1\vivado.jou
+# Log file: C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/synth_1/top.vds
+# Journal file: C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source top.tcl -notrace
 Command: synth_design -top top -part xc7a35tcpg236-1
@@ -15,55 +15,55 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 2520 
-WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:18]
-WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:19]
-WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:20]
-WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:21]
-WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:22]
-WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:23]
-WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:24]
-WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:26]
-WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:27]
-WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:28]
-WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:29]
-WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:31]
-WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:32]
-WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:33]
-WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:34]
-WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:35]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:191]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:192]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:193]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:194]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:229]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:231]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:232]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:233]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:234]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:235]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:236]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:237]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:238]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:239]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:240]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:241]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:242]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:243]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:244]
-WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:245]
+INFO: Helper process launched with PID 6648 
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:18]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:19]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:20]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:21]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:22]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:23]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:24]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:26]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:27]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:28]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:29]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:31]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:32]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:33]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:34]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:35]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:191]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:192]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:193]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:194]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:229]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:231]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:232]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:233]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:234]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:235]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:236]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:237]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:238]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:239]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:240]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:241]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:242]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:243]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:244]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:245]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 342.336 ; gain = 112.598
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 354.328 ; gain = 113.742
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'top' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:37]
-INFO: [Synth 8-638] synthesizing module 'freqdiv_27bit_BinUpCnt' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_27bit_BinUpCnt.v:24]
-INFO: [Synth 8-256] done synthesizing module 'freqdiv_27bit_BinUpCnt' (1#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_27bit_BinUpCnt.v:24]
-INFO: [Synth 8-638] synthesizing module 'freqdiv_100Hz' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_1Hz.v:24]
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:37]
+INFO: [Synth 8-638] synthesizing module 'freqdiv_27bit_BinUpCnt' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_27bit_BinUpCnt.v:24]
+INFO: [Synth 8-256] done synthesizing module 'freqdiv_27bit_BinUpCnt' (1#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_27bit_BinUpCnt.v:24]
+INFO: [Synth 8-638] synthesizing module 'freqdiv_100Hz' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_1Hz.v:24]
 	Parameter divisor bound to: 28'b0000000001111010000100100000 
-INFO: [Synth 8-256] done synthesizing module 'freqdiv_100Hz' (2#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_1Hz.v:24]
-INFO: [Synth 8-638] synthesizing module 'debounce_circuit' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/debounce_circuit.v:23]
-INFO: [Synth 8-256] done synthesizing module 'debounce_circuit' (3#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/debounce_circuit.v:23]
-INFO: [Synth 8-638] synthesizing module 'KeyboardDecoder' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardDecoder.v:1]
+INFO: [Synth 8-256] done synthesizing module 'freqdiv_100Hz' (2#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_1Hz.v:24]
+INFO: [Synth 8-638] synthesizing module 'debounce_circuit' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/debounce_circuit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'debounce_circuit' (3#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/debounce_circuit.v:23]
+INFO: [Synth 8-638] synthesizing module 'KeyboardDecoder' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardDecoder.v:1]
 	Parameter INIT bound to: 2'b00 
 	Parameter WAIT_FOR_SIGNAL bound to: 2'b01 
 	Parameter GET_SIGNAL_DOWN bound to: 2'b10 
@@ -71,7 +71,7 @@ INFO: [Synth 8-638] synthesizing module 'KeyboardDecoder' [D:/Xilinx_Logic_Desig
 	Parameter IS_INIT bound to: 8'b10101010 
 	Parameter IS_EXTEND bound to: 8'b11100000 
 	Parameter IS_BREAK bound to: 8'b11110000 
-INFO: [Synth 8-638] synthesizing module 'KeyboardCtrl' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:1]
+INFO: [Synth 8-638] synthesizing module 'KeyboardCtrl' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:1]
 	Parameter SYSCLK_FREQUENCY_HZ bound to: 100000000 - type: integer 
 	Parameter RESET bound to: 3'b000 
 	Parameter SEND_CMD bound to: 3'b001 
@@ -89,7 +89,7 @@ INFO: [Synth 8-638] synthesizing module 'KeyboardCtrl' [D:/Xilinx_Logic_Design_L
 	Parameter CAPS_LOCK bound to: 8'b01011000 
 	Parameter NUM_LOCK bound to: 8'b01110111 
 	Parameter SCR_LOCK bound to: 8'b01111110 
-INFO: [Synth 8-638] synthesizing module 'Ps2Interface' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:164]
+INFO: [Synth 8-638] synthesizing module 'Ps2Interface' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:164]
 	Parameter SYSCLK_FREQUENCY_HZ bound to: 100000000 - type: integer 
 	Parameter CLOCK_CNT_100US bound to: 10000 - type: integer 
 	Parameter CLOCK_CNT_20US bound to: 2000 - type: integer 
@@ -111,66 +111,492 @@ INFO: [Synth 8-638] synthesizing module 'Ps2Interface' [D:/Xilinx_Logic_Design_L
 	Parameter TX_WAIT_ACK bound to: 4'b1100 
 	Parameter TX_RECEIVED_ACK bound to: 4'b1101 
 	Parameter TX_ERROR_NO_ACK bound to: 4'b1110 
-INFO: [Synth 8-638] synthesizing module 'IOBUF' [D:/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:22655]
+INFO: [Synth 8-638] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:22655]
 	Parameter DRIVE bound to: 12 - type: integer 
 	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
 	Parameter IOSTANDARD bound to: DEFAULT - type: string 
 	Parameter SLEW bound to: SLOW - type: string 
-INFO: [Synth 8-256] done synthesizing module 'IOBUF' (4#1) [D:/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:22655]
-INFO: [Synth 8-256] done synthesizing module 'Ps2Interface' (5#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:164]
-INFO: [Synth 8-256] done synthesizing module 'KeyboardCtrl' (6#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:1]
-INFO: [Synth 8-226] default block is never used [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardDecoder.v:71]
-INFO: [Synth 8-256] done synthesizing module 'KeyboardDecoder' (7#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardDecoder.v:1]
-INFO: [Synth 8-638] synthesizing module 'keyboard_in_fsm' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/keyboard_in_fsm.v:38]
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/keyboard_in_fsm.v:71]
-INFO: [Synth 8-256] done synthesizing module 'keyboard_in_fsm' (8#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/keyboard_in_fsm.v:38]
-INFO: [Synth 8-638] synthesizing module 'ELEV_in_btn' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:23]
+INFO: [Synth 8-256] done synthesizing module 'IOBUF' (4#1) [C:/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:22655]
+INFO: [Synth 8-256] done synthesizing module 'Ps2Interface' (5#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/Ps2Interface.v:164]
+INFO: [Synth 8-256] done synthesizing module 'KeyboardCtrl' (6#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardCtrl.v:1]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardDecoder.v:71]
+INFO: [Synth 8-256] done synthesizing module 'KeyboardDecoder' (7#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z2_keyboard/KeyboardDecoder.v:1]
+INFO: [Synth 8-638] synthesizing module 'keyboard_in_fsm' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/keyboard_in_fsm.v:38]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/keyboard_in_fsm.v:71]
+INFO: [Synth 8-256] done synthesizing module 'keyboard_in_fsm' (8#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/keyboard_in_fsm.v:38]
+INFO: [Synth 8-638] synthesizing module 'ELEV_in_btn' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:23]
 	Parameter max bound to: 100000000 - type: integer 
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:53]
-INFO: [Synth 8-256] done synthesizing module 'ELEV_in_btn' (9#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:23]
-INFO: [Synth 8-638] synthesizing module 'ELEV_out_btn' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_out_btn.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:53]
+INFO: [Synth 8-256] done synthesizing module 'ELEV_in_btn' (9#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:23]
+INFO: [Synth 8-638] synthesizing module 'ELEV_out_btn' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_out_btn.v:23]
 	Parameter max bound to: 100000000 - type: integer 
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_out_btn.v:80]
-INFO: [Synth 8-256] done synthesizing module 'ELEV_out_btn' (10#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_out_btn.v:23]
-INFO: [Synth 8-638] synthesizing module 'FSM' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_out_btn.v:80]
+INFO: [Synth 8-256] done synthesizing module 'ELEV_out_btn' (10#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_out_btn.v:23]
+INFO: [Synth 8-638] synthesizing module 'FSM' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:23]
 	Parameter max bound to: 100000000 - type: integer 
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:268]
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:309]
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:346]
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:402]
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:448]
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:482]
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:519]
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:556]
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:593]
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:630]
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:672]
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:244]
-INFO: [Synth 8-256] done synthesizing module 'FSM' (11#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:23]
-INFO: [Synth 8-638] synthesizing module 'door' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/door.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:239]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:280]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:317]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:373]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:419]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:453]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:490]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:527]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:564]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:601]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:643]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:217]
+INFO: [Synth 8-256] done synthesizing module 'FSM' (11#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/FSM.v:23]
+INFO: [Synth 8-638] synthesizing module 'door' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/door.v:23]
 	Parameter max bound to: 100000000 - type: integer 
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/door.v:47]
-INFO: [Synth 8-256] done synthesizing module 'door' (12#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/door.v:23]
-INFO: [Synth 8-638] synthesizing module 'led' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/led_display.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/door.v:47]
+INFO: [Synth 8-256] done synthesizing module 'door' (12#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/door.v:23]
+INFO: [Synth 8-638] synthesizing module 'led' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/led_display.v:23]
 	Parameter max bound to: 100000000 - type: integer 
 	Parameter max_5HZ bound to: 10000000 - type: integer 
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/led_display.v:146]
-WARNING: [Synth 8-6014] Unused sequential element clk_5HZ_reg was removed.  [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/led_display.v:94]
-WARNING: [Synth 8-6014] Unused sequential element n_5HZ_reg was removed.  [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/led_display.v:92]
-INFO: [Synth 8-256] done synthesizing module 'led' (13#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/led_display.v:23]
-INFO: [Synth 8-226] default block is never used [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:401]
-INFO: [Synth 8-638] synthesizing module 'scan_ctrl' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/scan_control.v:23]
-INFO: [Synth 8-226] default block is never used [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/scan_control.v:31]
-INFO: [Synth 8-256] done synthesizing module 'scan_ctrl' (14#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/scan_control.v:23]
-INFO: [Synth 8-638] synthesizing module 'BCD_ToSSD_decoder' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/BCD_to_SSD_decoder.v:23]
-INFO: [Synth 8-256] done synthesizing module 'BCD_ToSSD_decoder' (15#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/BCD_to_SSD_decoder.v:23]
-INFO: [Synth 8-256] done synthesizing module 'top' (16#1) [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:37]
-WARNING: [Synth 8-3331] design ELEV_out_btn has unconnected port press_in1
-WARNING: [Synth 8-3331] design ELEV_out_btn has unconnected port press_in2
-WARNING: [Synth 8-3331] design ELEV_out_btn has unconnected port press_in3
-WARNING: [Synth 8-3331] design ELEV_out_btn has unconnected port press_in4
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/led_display.v:146]
+WARNING: [Synth 8-6014] Unused sequential element clk_5HZ_reg was removed.  [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/led_display.v:94]
+WARNING: [Synth 8-6014] Unused sequential element n_5HZ_reg was removed.  [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/led_display.v:92]
+INFO: [Synth 8-256] done synthesizing module 'led' (13#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/led_display.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:401]
+INFO: [Synth 8-638] synthesizing module 'top_vga_display' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:1]
+INFO: [Synth 8-638] synthesizing module 'clock_divisor' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/clock_divisor.v:1]
+INFO: [Synth 8-256] done synthesizing module 'clock_divisor' (14#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/clock_divisor.v:1]
+INFO: [Synth 8-638] synthesizing module 'mem_addr_gen' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/mem_addr_gen.v:1]
+INFO: [Synth 8-256] done synthesizing module 'mem_addr_gen' (15#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/mem_addr_gen.v:1]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_0/synth/blk_mem_gen_0.vhd:69]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 0 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: blk_mem_gen_0.mif - type: string 
+	Parameter C_INIT_FILE bound to: blk_mem_gen_0.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 12 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 12 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 27000 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 27000 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 15 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 12 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 12 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 27000 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 27000 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 15 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 10 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     9.720749 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_1' declared at 'c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_3/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195313' bound to instance 'U0' of component 'blk_mem_gen_v8_4_1' [c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_0/synth/blk_mem_gen_0.vhd:232]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_0' (26#1) [c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_0/synth/blk_mem_gen_0.vhd:69]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (15) of module 'blk_mem_gen_0' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:46]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_1' [c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_1_1/synth/blk_mem_gen_1.vhd:69]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 0 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: blk_mem_gen_1.mif - type: string 
+	Parameter C_INIT_FILE bound to: blk_mem_gen_1.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 12 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 12 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 27000 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 27000 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 15 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 12 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 12 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 27000 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 27000 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 15 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 10 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     9.720749 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_1' declared at 'c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_3/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195313' bound to instance 'U0' of component 'blk_mem_gen_v8_4_1' [c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_1_1/synth/blk_mem_gen_1.vhd:232]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_1' (27#1) [c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_1_1/synth/blk_mem_gen_1.vhd:69]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (15) of module 'blk_mem_gen_1' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:54]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_2' [c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_2/synth/blk_mem_gen_2.vhd:69]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 0 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: blk_mem_gen_2.mif - type: string 
+	Parameter C_INIT_FILE bound to: blk_mem_gen_2.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 12 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 12 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 27000 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 27000 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 15 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 12 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 12 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 27000 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 27000 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 15 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 10 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     9.720749 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_1' declared at 'c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_3/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195313' bound to instance 'U0' of component 'blk_mem_gen_v8_4_1' [c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_2/synth/blk_mem_gen_2.vhd:232]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_2' (28#1) [c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_2/synth/blk_mem_gen_2.vhd:69]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (15) of module 'blk_mem_gen_2' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:62]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_3' [c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_3/synth/blk_mem_gen_3.vhd:69]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 0 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: blk_mem_gen_3.mif - type: string 
+	Parameter C_INIT_FILE bound to: blk_mem_gen_3.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 12 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 12 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 27000 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 27000 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 15 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 12 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 12 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 27000 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 27000 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 15 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 10 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     9.720749 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_1' declared at 'c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_3/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195313' bound to instance 'U0' of component 'blk_mem_gen_v8_4_1' [c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_3/synth/blk_mem_gen_3.vhd:232]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_3' (29#1) [c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_3/synth/blk_mem_gen_3.vhd:69]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (15) of module 'blk_mem_gen_3' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:70]
+WARNING: [Synth 8-151] case item 2'b10 is unreachable [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:82]
+WARNING: [Synth 8-151] case item 2'b11 is unreachable [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:83]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:79]
+INFO: [Synth 8-638] synthesizing module 'vga_controller' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/vga.v:6]
+INFO: [Synth 8-256] done synthesizing module 'vga_controller' (30#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/vga.v:6]
+WARNING: [Synth 8-3848] Net data in module/entity top_vga_display does not have driver. [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:12]
+INFO: [Synth 8-256] done synthesizing module 'top_vga_display' (31#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:1]
+WARNING: [Synth 8-689] width (2) of port connection 'now_floor' does not match port width (1) of module 'top_vga_display' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:432]
+INFO: [Synth 8-638] synthesizing module 'speaker' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z0_audio/speaker.v:21]
+INFO: [Synth 8-638] synthesizing module 'note_gen' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z0_audio/note_gen.v:21]
+INFO: [Synth 8-256] done synthesizing module 'note_gen' (32#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z0_audio/note_gen.v:21]
+INFO: [Synth 8-638] synthesizing module 'speaker_control' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z0_audio/speaker_control.v:21]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z0_audio/speaker_control.v:76]
+INFO: [Synth 8-256] done synthesizing module 'speaker_control' (33#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z0_audio/speaker_control.v:21]
+INFO: [Synth 8-256] done synthesizing module 'speaker' (34#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z0_audio/speaker.v:21]
+WARNING: [Synth 8-689] width (5) of port connection 'state' does not match port width (6) of module 'speaker' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:443]
+INFO: [Synth 8-638] synthesizing module 'scan_ctrl' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/scan_control.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/scan_control.v:31]
+INFO: [Synth 8-256] done synthesizing module 'scan_ctrl' (35#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/scan_control.v:23]
+INFO: [Synth 8-638] synthesizing module 'BCD_ToSSD_decoder' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/BCD_to_SSD_decoder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'BCD_ToSSD_decoder' (36#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/BCD_to_SSD_decoder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'top' (37#1) [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:37]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MUX_RST[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MEM_LAT_RST
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MEM_REG_RST
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MUX_REGCE[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MEM_REGCE
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port WE
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[14]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[13]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[12]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[11]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[10]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[9]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[8]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[7]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[6]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[5]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[4]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[3]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[2]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[1]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[95]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[94]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[93]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[92]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[91]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[90]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[89]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[88]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[87]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[86]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[85]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[84]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[83]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[82]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[81]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[80]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[79]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[78]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[77]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[76]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[75]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[74]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[73]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[72]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[71]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[70]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[69]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[68]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[67]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[66]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[65]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[64]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[63]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[62]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[61]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[60]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[59]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[58]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[57]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[56]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[55]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[54]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[53]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[52]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[51]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[50]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[49]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[48]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[47]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[46]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[45]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[44]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[43]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[42]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[41]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[40]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[39]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[38]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[37]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[36]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[35]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[34]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[33]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[32]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[31]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[30]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[29]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[28]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[27]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[26]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[25]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[24]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[23]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[22]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[21]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[20]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[19]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[18]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[17]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 389.293 ; gain = 159.555
+Finished RTL Elaboration : Time (s): cpu = 00:05:32 ; elapsed = 00:05:37 . Memory (MB): peak = 981.012 ; gain = 740.426
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -179,45 +605,99 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin floor1:dina[11] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:43]
+WARNING: [Synth 8-3295] tying undriven pin floor1:dina[10] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:43]
+WARNING: [Synth 8-3295] tying undriven pin floor1:dina[9] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:43]
+WARNING: [Synth 8-3295] tying undriven pin floor1:dina[8] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:43]
+WARNING: [Synth 8-3295] tying undriven pin floor1:dina[7] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:43]
+WARNING: [Synth 8-3295] tying undriven pin floor1:dina[6] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:43]
+WARNING: [Synth 8-3295] tying undriven pin floor1:dina[5] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:43]
+WARNING: [Synth 8-3295] tying undriven pin floor1:dina[4] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:43]
+WARNING: [Synth 8-3295] tying undriven pin floor1:dina[3] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:43]
+WARNING: [Synth 8-3295] tying undriven pin floor1:dina[2] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:43]
+WARNING: [Synth 8-3295] tying undriven pin floor1:dina[1] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:43]
+WARNING: [Synth 8-3295] tying undriven pin floor1:dina[0] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:43]
+WARNING: [Synth 8-3295] tying undriven pin floor2:dina[11] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:51]
+WARNING: [Synth 8-3295] tying undriven pin floor2:dina[10] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:51]
+WARNING: [Synth 8-3295] tying undriven pin floor2:dina[9] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:51]
+WARNING: [Synth 8-3295] tying undriven pin floor2:dina[8] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:51]
+WARNING: [Synth 8-3295] tying undriven pin floor2:dina[7] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:51]
+WARNING: [Synth 8-3295] tying undriven pin floor2:dina[6] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:51]
+WARNING: [Synth 8-3295] tying undriven pin floor2:dina[5] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:51]
+WARNING: [Synth 8-3295] tying undriven pin floor2:dina[4] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:51]
+WARNING: [Synth 8-3295] tying undriven pin floor2:dina[3] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:51]
+WARNING: [Synth 8-3295] tying undriven pin floor2:dina[2] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:51]
+WARNING: [Synth 8-3295] tying undriven pin floor2:dina[1] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:51]
+WARNING: [Synth 8-3295] tying undriven pin floor2:dina[0] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:51]
+WARNING: [Synth 8-3295] tying undriven pin floor3:dina[11] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:59]
+WARNING: [Synth 8-3295] tying undriven pin floor3:dina[10] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:59]
+WARNING: [Synth 8-3295] tying undriven pin floor3:dina[9] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:59]
+WARNING: [Synth 8-3295] tying undriven pin floor3:dina[8] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:59]
+WARNING: [Synth 8-3295] tying undriven pin floor3:dina[7] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:59]
+WARNING: [Synth 8-3295] tying undriven pin floor3:dina[6] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:59]
+WARNING: [Synth 8-3295] tying undriven pin floor3:dina[5] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:59]
+WARNING: [Synth 8-3295] tying undriven pin floor3:dina[4] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:59]
+WARNING: [Synth 8-3295] tying undriven pin floor3:dina[3] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:59]
+WARNING: [Synth 8-3295] tying undriven pin floor3:dina[2] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:59]
+WARNING: [Synth 8-3295] tying undriven pin floor3:dina[1] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:59]
+WARNING: [Synth 8-3295] tying undriven pin floor3:dina[0] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:59]
+WARNING: [Synth 8-3295] tying undriven pin floor4:dina[11] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:67]
+WARNING: [Synth 8-3295] tying undriven pin floor4:dina[10] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:67]
+WARNING: [Synth 8-3295] tying undriven pin floor4:dina[9] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:67]
+WARNING: [Synth 8-3295] tying undriven pin floor4:dina[8] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:67]
+WARNING: [Synth 8-3295] tying undriven pin floor4:dina[7] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:67]
+WARNING: [Synth 8-3295] tying undriven pin floor4:dina[6] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:67]
+WARNING: [Synth 8-3295] tying undriven pin floor4:dina[5] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:67]
+WARNING: [Synth 8-3295] tying undriven pin floor4:dina[4] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:67]
+WARNING: [Synth 8-3295] tying undriven pin floor4:dina[3] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:67]
+WARNING: [Synth 8-3295] tying undriven pin floor4:dina[2] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:67]
+WARNING: [Synth 8-3295] tying undriven pin floor4:dina[1] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:67]
+WARNING: [Synth 8-3295] tying undriven pin floor4:dina[0] to constant 0 [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/top_vga_display.v:67]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 389.293 ; gain = 159.555
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:05:33 ; elapsed = 00:05:38 . Memory (MB): peak = 981.012 ; gain = 740.426
 ---------------------------------------------------------------------------------
-INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 42 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/constrs_1/new/final_project_ver2.xdc]
-Finished Parsing XDC File [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/constrs_1/new/final_project_ver2.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/constrs_1/new/final_project_ver2.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Parsing XDC File [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/constrs_1/new/final_project_ver2.xdc]
+Finished Parsing XDC File [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/constrs_1/new/final_project_ver2.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/constrs_1/new/final_project_ver2.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 2 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 725.441 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 981.012 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 725.441 ; gain = 495.703
+Finished Constraint Validation : Time (s): cpu = 00:05:46 ; elapsed = 00:05:52 . Memory (MB): peak = 981.012 ; gain = 740.426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 725.441 ; gain = 495.703
+Finished Loading Part and Timing Information : Time (s): cpu = 00:05:46 ; elapsed = 00:05:52 . Memory (MB): peak = 981.012 ; gain = 740.426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U_VGA/floor1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U_VGA/floor2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U_VGA/floor3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U_VGA/floor4. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 725.441 ; gain = 495.703
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:05:46 ; elapsed = 00:05:52 . Memory (MB): peak = 981.012 ; gain = 740.426
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5545] ROM "t_flag" won't be mapped to RAM because address size (28) is larger than maximum supported(25)
-WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_1Hz.v:37]
+WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_1Hz.v:37]
 INFO: [Synth 8-5544] ROM "pb_debounced_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Ps2Interface'
 INFO: [Synth 8-5544] ROM "ps2_clk_s" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
@@ -327,16 +807,23 @@ INFO: [Synth 8-5544] ROM "jump_state33" won't be mapped to Block RAM because add
 INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Common 17-14] Message 'Synth 8-5544' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-6014] Unused sequential element num_reg was removed.  [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/clock_divisor.v:9]
+INFO: [Synth 8-5546] ROM "line_cnt" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element pixel_cnt_reg was removed.  [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/vga.v:36]
+WARNING: [Synth 8-6014] Unused sequential element line_cnt_reg was removed.  [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/vga.v:52]
+WARNING: [Synth 8-6014] Unused sequential element clk_cnt_reg was removed.  [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z0_audio/note_gen.v:44]
+WARNING: [Synth 8-6014] Unused sequential element clk_cnt_reg was removed.  [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z0_audio/speaker_control.v:49]
+INFO: [Synth 8-5546] ROM "note_div" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "to1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "to2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "to3" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "to4" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "f1u" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "f2u" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "f2d" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "f3u" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "f3d" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "f4d" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "to1" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "to2" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "to3" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "to4" won't be mapped to RAM because it is too sparse
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
@@ -385,10 +872,8 @@ INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 
                  iSTATE9 |                             1010 |                            11000
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'keyboard_in_fsm'
-WARNING: [Synth 8-327] inferring latch for variable 'digit3_reg' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:423]
-WARNING: [Synth 8-327] inferring latch for variable 'digit1_reg' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:426]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 725.441 ; gain = 495.703
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:05:50 ; elapsed = 00:05:56 . Memory (MB): peak = 981.012 ; gain = 740.426
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -403,36 +888,44 @@ Detailed RTL Component Info :
 +---Adders : 
 	   2 Input     31 Bit       Adders := 5     
 	   2 Input     27 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 1     
 	   2 Input     14 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
 	   2 Input      4 Bit       Adders := 3     
 +---Registers : 
 	              512 Bit    Registers := 1     
 	               31 Bit    Registers := 5     
-	               15 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	               15 Bit    Registers := 5     
 	               14 Bit    Registers := 1     
 	               11 Bit    Registers := 1     
-	               10 Bit    Registers := 1     
-	                9 Bit    Registers := 1     
+	               10 Bit    Registers := 3     
+	                9 Bit    Registers := 2     
 	                8 Bit    Registers := 3     
 	                5 Bit    Registers := 1     
 	                4 Bit    Registers := 6     
-	                3 Bit    Registers := 1     
+	                3 Bit    Registers := 13    
 	                2 Bit    Registers := 4     
-	                1 Bit    Registers := 47    
+	                1 Bit    Registers := 50    
 +---Muxes : 
 	   2 Input    512 Bit        Muxes := 1     
 	   2 Input     31 Bit        Muxes := 5     
+	   2 Input     17 Bit        Muxes := 3     
+	   5 Input     17 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
 	  33 Input     15 Bit        Muxes := 1     
 	   2 Input     14 Bit        Muxes := 3     
 	  15 Input     14 Bit        Muxes := 1     
 	   2 Input     11 Bit        Muxes := 1     
 	   4 Input     10 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
 	   7 Input      8 Bit        Muxes := 1     
 	  11 Input      5 Bit        Muxes := 1     
 	   4 Input      5 Bit        Muxes := 18    
 	   7 Input      5 Bit        Muxes := 18    
 	   2 Input      5 Bit        Muxes := 16    
-	   2 Input      4 Bit        Muxes := 25    
+	   2 Input      4 Bit        Muxes := 34    
 	  32 Input      4 Bit        Muxes := 1     
 	   4 Input      4 Bit        Muxes := 38    
 	   6 Input      4 Bit        Muxes := 2     
@@ -444,10 +937,10 @@ Detailed RTL Component Info :
 	   4 Input      2 Bit        Muxes := 1     
 	  16 Input      2 Bit        Muxes := 2     
 	  18 Input      2 Bit        Muxes := 3     
-	   2 Input      1 Bit        Muxes := 115   
+	   2 Input      1 Bit        Muxes := 187   
 	  15 Input      1 Bit        Muxes := 6     
 	   7 Input      1 Bit        Muxes := 11    
-	   4 Input      1 Bit        Muxes := 12    
+	   4 Input      1 Bit        Muxes := 10    
 	  18 Input      1 Bit        Muxes := 19    
 	   3 Input      1 Bit        Muxes := 6     
 	   5 Input      1 Bit        Muxes := 1     
@@ -463,10 +956,9 @@ Hierarchical RTL Component report
 Module top 
 Detailed RTL Component Info : 
 +---Muxes : 
-	   2 Input      4 Bit        Muxes := 1     
 	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
 	   4 Input      3 Bit        Muxes := 1     
-	   4 Input      1 Bit        Muxes := 2     
 	  12 Input      1 Bit        Muxes := 10    
 Module freqdiv_27bit_BinUpCnt 
 Detailed RTL Component Info : 
@@ -614,6 +1106,59 @@ Detailed RTL Component Info :
 	   2 Input     31 Bit        Muxes := 1     
 	  18 Input      1 Bit        Muxes := 4     
 	   2 Input      1 Bit        Muxes := 4     
+Module mem_addr_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 2     
+Module bindec 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 8     
+Module blk_mem_gen_mux 
+Detailed RTL Component Info : 
++---Registers : 
+	               15 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module blk_mem_gen_mux__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+Module vga_controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+Module top_vga_display 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 9     
+Module note_gen 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module speaker_control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+Module speaker 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 1     
+	   5 Input     17 Bit        Muxes := 1     
 Module scan_ctrl 
 Detailed RTL Component Info : 
 +---Muxes : 
@@ -634,8 +1179,24 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vga_inst/line_cnt" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element clk_wiz_0_inst/num_reg was removed.  [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/clock_divisor.v:9]
+WARNING: [Synth 8-6014] Unused sequential element vga_inst/pixel_cnt_reg was removed.  [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/vga.v:36]
+WARNING: [Synth 8-6014] Unused sequential element vga_inst/line_cnt_reg was removed.  [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/vga.v:52]
+DSP Report: Generating DSP mem_addr_gen_inst/pixel_addr2, operation Mode is: A*(B:0xb4).
+DSP Report: operator mem_addr_gen_inst/pixel_addr2 is absorbed into DSP mem_addr_gen_inst/pixel_addr2.
+DSP Report: Generating DSP mem_addr_gen_inst/pixel_addr0, operation Mode is: (PCIN or 0)+((A:0x0):B or 0)+((C:0xfffffffffe6b) or 0).
+DSP Report: operator mem_addr_gen_inst/pixel_addr0 is absorbed into DSP mem_addr_gen_inst/pixel_addr0.
+DSP Report: Generating DSP mem_addr_gen_inst/pixel_addr0, operation Mode is: C+A*(B:0xb4).
+DSP Report: operator mem_addr_gen_inst/pixel_addr0 is absorbed into DSP mem_addr_gen_inst/pixel_addr0.
+DSP Report: operator mem_addr_gen_inst/pixel_addr1 is absorbed into DSP mem_addr_gen_inst/pixel_addr0.
+INFO: [Synth 8-4471] merging register 'Usc/audio_left_reg[15:0]' into 'Usc/audio_right_reg[15:0]' [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z0_audio/speaker_control.v:66]
+WARNING: [Synth 8-6014] Unused sequential element Usc/audio_left_reg was removed.  [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z0_audio/speaker_control.v:66]
+INFO: [Synth 8-5546] ROM "note_div" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element Ung/clk_cnt_reg was removed.  [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z0_audio/note_gen.v:44]
+WARNING: [Synth 8-6014] Unused sequential element Usc/clk_cnt_reg was removed.  [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z0_audio/speaker_control.v:49]
 INFO: [Synth 8-5545] ROM "U_100Hz/t_flag" won't be mapped to RAM because address size (28) is larger than maximum supported(25)
-WARNING: [Synth 8-6014] Unused sequential element U_100Hz/cnt_reg was removed.  [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_1Hz.v:37]
+WARNING: [Synth 8-6014] Unused sequential element U_100Hz/cnt_reg was removed.  [C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/freqdiv_1Hz.v:37]
 INFO: [Synth 8-3886] merging instance 'U_keyboard/inst/lock_status_reg[2]' (FDCE) to 'U_keyboard/inst/lock_status_reg[0]'
 INFO: [Synth 8-3886] merging instance 'U_keyboard/inst/lock_status_reg[1]' (FDCE) to 'U_keyboard/inst/lock_status_reg[0]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (U_keyboard/\inst/lock_status_reg[0] )
@@ -643,7 +1204,19 @@ INFO: [Synth 8-3886] merging instance 'U_keyboard/inst/tx_data_reg[4]' (FDCE) to
 INFO: [Synth 8-3886] merging instance 'U_keyboard/inst/tx_data_reg[7]' (FDCE) to 'U_keyboard/inst/tx_data_reg[3]'
 INFO: [Synth 8-3886] merging instance 'U_keyboard/inst/tx_data_reg[5]' (FDCE) to 'U_keyboard/inst/tx_data_reg[3]'
 INFO: [Synth 8-3886] merging instance 'U_keyboard/inst/tx_data_reg[6]' (FDCE) to 'U_keyboard/inst/tx_data_reg[3]'
-INFO: [Synth 8-3333] propagating constant 1 across sequential element (\digit3_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U_speaker/Usc/audio_right_reg[2]' (FDC) to 'U_speaker/Usc/audio_right_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U_speaker/Usc/audio_right_reg[3]' (FDC) to 'U_speaker/Usc/audio_right_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U_speaker/Usc/audio_right_reg[4]' (FDC) to 'U_speaker/Usc/audio_right_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U_speaker/Usc/audio_right_reg[5]' (FDC) to 'U_speaker/Usc/audio_right_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U_speaker/Usc/audio_right_reg[6]' (FDC) to 'U_speaker/Usc/audio_right_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U_speaker/Usc/audio_right_reg[7]' (FDC) to 'U_speaker/Usc/audio_right_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U_speaker/Usc/audio_right_reg[8]' (FDC) to 'U_speaker/Usc/audio_right_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U_speaker/Usc/audio_right_reg[9]' (FDC) to 'U_speaker/Usc/audio_right_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U_speaker/Usc/audio_right_reg[10]' (FDC) to 'U_speaker/Usc/audio_right_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U_speaker/Usc/audio_right_reg[11]' (FDC) to 'U_speaker/Usc/audio_right_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U_speaker/Usc/audio_right_reg[13]' (FDC) to 'U_speaker/Usc/audio_right_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U_speaker/Usc/audio_right_reg[14]' (FDC) to 'U_speaker/Usc/audio_right_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U_speaker/Usc/audio_right_reg[0]' (FDC) to 'U_speaker/Usc/audio_right_reg[1]'
 INFO: [Synth 8-3886] merging instance 'U_keyboard/inst/tx_data_reg[2]' (FDCE) to 'U_keyboard/inst/tx_data_reg[0]'
 INFO: [Synth 8-3886] merging instance 'U_keyboard/inst/tx_data_reg[1]' (FDCE) to 'U_keyboard/inst/tx_data_reg[0]'
 WARNING: [Synth 8-3332] Sequential element (inst/lock_status_reg[0]) is unused and will be removed from module KeyboardDecoder.
@@ -747,14 +1320,8 @@ WARNING: [Synth 8-3332] Sequential element (key_down_reg[418]) is unused and wil
 WARNING: [Synth 8-3332] Sequential element (key_down_reg[417]) is unused and will be removed from module KeyboardDecoder.
 WARNING: [Synth 8-3332] Sequential element (key_down_reg[416]) is unused and will be removed from module KeyboardDecoder.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'digit1_reg[0]/Q' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:426]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'VCC' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:426]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v:426]
-INFO: [Synth 8-3886] merging instance 'digit1_reg[2]' (LD) to 'digit1_reg[1]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\digit1_reg[1] )
-INFO: [Synth 8-3333] propagating constant 1 across sequential element (\digit1_reg[3] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 725.441 ; gain = 495.703
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:05:58 ; elapsed = 00:06:04 . Memory (MB): peak = 981.012 ; gain = 740.426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -769,9 +1336,20 @@ ROM:
 |FSM          | now_floor                   | 32x2          | LUT            | 
 |KeyboardCtrl | Ps2Interface_i/parity_table | 256x1         | LUT            | 
 |KeyboardCtrl | Ps2Interface_i/parity_table | 256x1         | LUT            | 
-|top          | U_FSM/now_floor             | 32x2          | LUT            | 
+|FSM          | now_floor                   | 32x2          | LUT            | 
 +-------------+-----------------------------+---------------+----------------+
 
+
+DSP: Preliminary Mapping  Report (see note below)
++----------------+--------------------------------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name     | DSP Mapping                                            | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------+--------------------------------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|mem_addr_gen    | A*(B:0xb4)                                             | 15     | 8      | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_vga_display | (PCIN or 0)+((A:0x0):B or 0)+((C:0xfffffffffe6b) or 0) | 30     | 10     | 10     | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|mem_addr_gen    | C+A*(B:0xb4)                                           | 10     | 8      | 10     | -      | 15     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++----------------+--------------------------------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
 ---------------------------------------------------------------------------------
 Finished ROM, RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
@@ -785,13 +1363,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 731.199 ; gain = 501.461
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:06:10 ; elapsed = 00:06:17 . Memory (MB): peak = 981.012 ; gain = 740.426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 732.074 ; gain = 502.336
+Finished Timing Optimization : Time (s): cpu = 00:06:10 ; elapsed = 00:06:17 . Memory (MB): peak = 981.012 ; gain = 740.426
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -802,17 +1380,8 @@ Report RTL Partitions:
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I118[2] with 1st driver pin 'i_668/O' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I118[2] with 2nd driver pin 'VCC' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I118[2] is connected to constant driver, other driver is ignored [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I118[1] with 1st driver pin 'i_671/O' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I118[1] with 2nd driver pin 'GND' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I118[1] is connected to constant driver, other driver is ignored [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I118[0] with 1st driver pin 'i_673/O' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I118[0] with 2nd driver pin 'GND' [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I118[0] is connected to constant driver, other driver is ignored [D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v:124]
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 767.559 ; gain = 537.820
+Finished Technology Mapping : Time (s): cpu = 00:06:11 ; elapsed = 00:06:18 . Memory (MB): peak = 981.012 ; gain = 740.426
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -838,7 +1407,7 @@ INFO: [Synth 8-5365] Flop U_keyboard/inst/Ps2Interface_i/ps2_data_en_reg is bein
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 767.559 ; gain = 537.820
+Finished IO Insertion : Time (s): cpu = 00:06:12 ; elapsed = 00:06:18 . Memory (MB): peak = 981.012 ; gain = 740.426
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -851,7 +1420,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 767.559 ; gain = 537.820
+Finished Renaming Generated Instances : Time (s): cpu = 00:06:12 ; elapsed = 00:06:18 . Memory (MB): peak = 981.012 ; gain = 740.426
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -863,25 +1432,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 767.559 ; gain = 537.820
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:06:12 ; elapsed = 00:06:19 . Memory (MB): peak = 981.012 ; gain = 740.426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 767.559 ; gain = 537.820
+Finished Renaming Generated Ports : Time (s): cpu = 00:06:12 ; elapsed = 00:06:19 . Memory (MB): peak = 981.012 ; gain = 740.426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 767.559 ; gain = 537.820
+Finished Handling Custom Attributes : Time (s): cpu = 00:06:12 ; elapsed = 00:06:19 . Memory (MB): peak = 981.012 ; gain = 740.426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 767.559 ; gain = 537.820
+Finished Renaming Generated Nets : Time (s): cpu = 00:06:12 ; elapsed = 00:06:19 . Memory (MB): peak = 981.012 ; gain = 740.426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -894,68 +1463,202 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+------+-------+------+
-|      |Cell   |Count |
-+------+-------+------+
-|1     |BUFG   |     1|
-|2     |CARRY4 |    55|
-|3     |LUT1   |     6|
-|4     |LUT2   |    83|
-|5     |LUT3   |    32|
-|6     |LUT4   |    84|
-|7     |LUT5   |    78|
-|8     |LUT6   |   228|
-|9     |MUXF7  |     3|
-|10    |MUXF8  |     1|
-|11    |FDCE   |   153|
-|12    |FDPE   |     7|
-|13    |FDRE   |   195|
-|14    |LD     |     3|
-|15    |IBUF   |     4|
-|16    |IOBUF  |     2|
-|17    |OBUF   |    24|
-+------+-------+------+
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |BUFG        |     1|
+|2     |CARRY4      |    64|
+|3     |DSP48E1     |     1|
+|4     |DSP48E1_1   |     1|
+|5     |DSP48E1_2   |     1|
+|6     |LUT1        |    12|
+|7     |LUT2        |   114|
+|8     |LUT3        |    85|
+|9     |LUT4        |   112|
+|10    |LUT5        |   156|
+|11    |LUT6        |   299|
+|12    |MUXF7       |    37|
+|13    |RAMB36E1    |     1|
+|14    |RAMB36E1_1  |     1|
+|15    |RAMB36E1_10 |     1|
+|16    |RAMB36E1_11 |     1|
+|17    |RAMB36E1_12 |     1|
+|18    |RAMB36E1_13 |     1|
+|19    |RAMB36E1_14 |     1|
+|20    |RAMB36E1_15 |     1|
+|21    |RAMB36E1_16 |     1|
+|22    |RAMB36E1_2  |     1|
+|23    |RAMB36E1_3  |     1|
+|24    |RAMB36E1_4  |    24|
+|25    |RAMB36E1_5  |     1|
+|26    |RAMB36E1_6  |     1|
+|27    |RAMB36E1_7  |     1|
+|28    |RAMB36E1_8  |     1|
+|29    |RAMB36E1_9  |     1|
+|30    |FDCE        |   188|
+|31    |FDPE        |     7|
+|32    |FDRE        |   241|
+|33    |FDSE        |     2|
+|34    |IBUF        |     4|
+|35    |IOBUF       |     2|
+|36    |OBUF        |    42|
++------+------------+------+
 
 Report Instance Areas: 
-+------+---------------------+-----------------------+------+
-|      |Instance             |Module                 |Cells |
-+------+---------------------+-----------------------+------+
-|1     |top                  |                       |   959|
-|2     |  U_100Hz            |freqdiv_100Hz          |    73|
-|3     |  U_FSM              |FSM                    |   221|
-|4     |  U_dcL              |debounce_circuit       |     6|
-|5     |  U_dcR              |debounce_circuit_0     |     6|
-|6     |  U_door             |door                   |    50|
-|7     |  U_fd_ctrl          |freqdiv_27bit_BinUpCnt |    36|
-|8     |  U_in_btn           |ELEV_in_btn            |    54|
-|9     |  U_key_in           |keyboard_in_fsm        |    30|
-|10    |  U_keyboard         |KeyboardDecoder        |   274|
-|11    |    inst             |KeyboardCtrl           |   244|
-|12    |      Ps2Interface_i |Ps2Interface           |   211|
-|13    |  U_out_btn          |ELEV_out_btn           |   117|
-|14    |  u_led              |led                    |    60|
-+------+---------------------+-----------------------+------+
++------+-------------------------------------------------+-----------------------------------------------+------+
+|      |Instance                                         |Module                                         |Cells |
++------+-------------------------------------------------+-----------------------------------------------+------+
+|1     |top                                              |                                               |  1409|
+|2     |  U_100Hz                                        |freqdiv_100Hz                                  |    73|
+|3     |  U_FSM                                          |FSM                                            |   222|
+|4     |  U_VGA                                          |top_vga_display                                |   335|
+|5     |    floor1                                       |blk_mem_gen_0                                  |    50|
+|6     |      U0                                         |blk_mem_gen_v8_4_1                             |    50|
+|7     |        inst_blk_mem_gen                         |blk_mem_gen_v8_4_1_synth                       |    50|
+|8     |          \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top                                |    50|
+|9     |            \valid.cstr                          |blk_mem_gen_generic_cstr                       |    50|
+|10    |              \bindec_a.bindec_inst_a            |bindec_5                                       |     6|
+|11    |              \has_mux_a.A                       |blk_mem_gen_mux_6                              |    33|
+|12    |              \ramloop[0].ram.r                  |blk_mem_gen_prim_width                         |     1|
+|13    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init                  |     1|
+|14    |              \ramloop[1].ram.r                  |blk_mem_gen_prim_width__parameterized0         |     1|
+|15    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized0  |     1|
+|16    |              \ramloop[2].ram.r                  |blk_mem_gen_prim_width__parameterized1         |     1|
+|17    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized1  |     1|
+|18    |              \ramloop[3].ram.r                  |blk_mem_gen_prim_width__parameterized2         |     1|
+|19    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized2  |     1|
+|20    |              \ramloop[4].ram.r                  |blk_mem_gen_prim_width__parameterized3         |     1|
+|21    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized3  |     1|
+|22    |              \ramloop[5].ram.r                  |blk_mem_gen_prim_width__parameterized4         |     1|
+|23    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized4  |     1|
+|24    |              \ramloop[6].ram.r                  |blk_mem_gen_prim_width__parameterized5         |     1|
+|25    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized5  |     1|
+|26    |              \ramloop[7].ram.r                  |blk_mem_gen_prim_width__parameterized6         |     1|
+|27    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized6  |     1|
+|28    |              \ramloop[8].ram.r                  |blk_mem_gen_prim_width__parameterized7         |     2|
+|29    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized7  |     2|
+|30    |              \ramloop[9].ram.r                  |blk_mem_gen_prim_width__parameterized8         |     1|
+|31    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized8  |     1|
+|32    |    floor2                                       |blk_mem_gen_1                                  |    50|
+|33    |      U0                                         |blk_mem_gen_v8_4_1__parameterized1             |    50|
+|34    |        inst_blk_mem_gen                         |blk_mem_gen_v8_4_1_synth__parameterized0       |    50|
+|35    |          \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top__parameterized0                |    50|
+|36    |            \valid.cstr                          |blk_mem_gen_generic_cstr__parameterized0       |    50|
+|37    |              \bindec_a.bindec_inst_a            |bindec_3                                       |     6|
+|38    |              \has_mux_a.A                       |blk_mem_gen_mux_4                              |    33|
+|39    |              \ramloop[0].ram.r                  |blk_mem_gen_prim_width__parameterized9         |     1|
+|40    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized9  |     1|
+|41    |              \ramloop[1].ram.r                  |blk_mem_gen_prim_width__parameterized10        |     1|
+|42    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized10 |     1|
+|43    |              \ramloop[2].ram.r                  |blk_mem_gen_prim_width__parameterized11        |     1|
+|44    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized11 |     1|
+|45    |              \ramloop[3].ram.r                  |blk_mem_gen_prim_width__parameterized12        |     1|
+|46    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized12 |     1|
+|47    |              \ramloop[4].ram.r                  |blk_mem_gen_prim_width__parameterized13        |     1|
+|48    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized13 |     1|
+|49    |              \ramloop[5].ram.r                  |blk_mem_gen_prim_width__parameterized14        |     1|
+|50    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized14 |     1|
+|51    |              \ramloop[6].ram.r                  |blk_mem_gen_prim_width__parameterized15        |     1|
+|52    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized15 |     1|
+|53    |              \ramloop[7].ram.r                  |blk_mem_gen_prim_width__parameterized16        |     1|
+|54    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized16 |     1|
+|55    |              \ramloop[8].ram.r                  |blk_mem_gen_prim_width__parameterized17        |     2|
+|56    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized17 |     2|
+|57    |              \ramloop[9].ram.r                  |blk_mem_gen_prim_width__parameterized18        |     1|
+|58    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized18 |     1|
+|59    |    floor3                                       |blk_mem_gen_2                                  |    50|
+|60    |      U0                                         |blk_mem_gen_v8_4_1__parameterized3             |    50|
+|61    |        inst_blk_mem_gen                         |blk_mem_gen_v8_4_1_synth__parameterized1       |    50|
+|62    |          \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top__parameterized1                |    50|
+|63    |            \valid.cstr                          |blk_mem_gen_generic_cstr__parameterized1       |    50|
+|64    |              \bindec_a.bindec_inst_a            |bindec_1                                       |     6|
+|65    |              \has_mux_a.A                       |blk_mem_gen_mux_2                              |    33|
+|66    |              \ramloop[0].ram.r                  |blk_mem_gen_prim_width__parameterized19        |     1|
+|67    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized19 |     1|
+|68    |              \ramloop[1].ram.r                  |blk_mem_gen_prim_width__parameterized20        |     1|
+|69    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized20 |     1|
+|70    |              \ramloop[2].ram.r                  |blk_mem_gen_prim_width__parameterized21        |     1|
+|71    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized21 |     1|
+|72    |              \ramloop[3].ram.r                  |blk_mem_gen_prim_width__parameterized22        |     1|
+|73    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized22 |     1|
+|74    |              \ramloop[4].ram.r                  |blk_mem_gen_prim_width__parameterized23        |     1|
+|75    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized23 |     1|
+|76    |              \ramloop[5].ram.r                  |blk_mem_gen_prim_width__parameterized24        |     1|
+|77    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized24 |     1|
+|78    |              \ramloop[6].ram.r                  |blk_mem_gen_prim_width__parameterized25        |     1|
+|79    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized25 |     1|
+|80    |              \ramloop[7].ram.r                  |blk_mem_gen_prim_width__parameterized26        |     1|
+|81    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized26 |     1|
+|82    |              \ramloop[8].ram.r                  |blk_mem_gen_prim_width__parameterized27        |     2|
+|83    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized27 |     2|
+|84    |              \ramloop[9].ram.r                  |blk_mem_gen_prim_width__parameterized28        |     1|
+|85    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized28 |     1|
+|86    |    floor4                                       |blk_mem_gen_3                                  |    50|
+|87    |      U0                                         |blk_mem_gen_v8_4_1__parameterized5             |    50|
+|88    |        inst_blk_mem_gen                         |blk_mem_gen_v8_4_1_synth__parameterized2       |    50|
+|89    |          \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top__parameterized2                |    50|
+|90    |            \valid.cstr                          |blk_mem_gen_generic_cstr__parameterized2       |    50|
+|91    |              \bindec_a.bindec_inst_a            |bindec                                         |     6|
+|92    |              \has_mux_a.A                       |blk_mem_gen_mux                                |    33|
+|93    |              \ramloop[0].ram.r                  |blk_mem_gen_prim_width__parameterized29        |     1|
+|94    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized29 |     1|
+|95    |              \ramloop[1].ram.r                  |blk_mem_gen_prim_width__parameterized30        |     1|
+|96    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized30 |     1|
+|97    |              \ramloop[2].ram.r                  |blk_mem_gen_prim_width__parameterized31        |     1|
+|98    |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized31 |     1|
+|99    |              \ramloop[3].ram.r                  |blk_mem_gen_prim_width__parameterized32        |     1|
+|100   |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized32 |     1|
+|101   |              \ramloop[4].ram.r                  |blk_mem_gen_prim_width__parameterized33        |     1|
+|102   |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized33 |     1|
+|103   |              \ramloop[5].ram.r                  |blk_mem_gen_prim_width__parameterized34        |     1|
+|104   |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized34 |     1|
+|105   |              \ramloop[6].ram.r                  |blk_mem_gen_prim_width__parameterized35        |     1|
+|106   |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized35 |     1|
+|107   |              \ramloop[7].ram.r                  |blk_mem_gen_prim_width__parameterized36        |     1|
+|108   |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized36 |     1|
+|109   |              \ramloop[8].ram.r                  |blk_mem_gen_prim_width__parameterized37        |     2|
+|110   |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized37 |     2|
+|111   |              \ramloop[9].ram.r                  |blk_mem_gen_prim_width__parameterized38        |     1|
+|112   |                \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized38 |     1|
+|113   |    clk_wiz_0_inst                               |clock_divisor                                  |     4|
+|114   |    mem_addr_gen_inst                            |mem_addr_gen                                   |    18|
+|115   |    vga_inst                                     |vga_controller                                 |   113|
+|116   |  U_dcL                                          |debounce_circuit                               |     6|
+|117   |  U_dcR                                          |debounce_circuit_0                             |     6|
+|118   |  U_display                                      |BCD_ToSSD_decoder                              |     7|
+|119   |  U_door                                         |door                                           |    50|
+|120   |  U_fd_ctrl                                      |freqdiv_27bit_BinUpCnt                         |    26|
+|121   |  U_in_btn                                       |ELEV_in_btn                                    |    66|
+|122   |  U_key_in                                       |keyboard_in_fsm                                |    29|
+|123   |  U_keyboard                                     |KeyboardDecoder                                |   274|
+|124   |    inst                                         |KeyboardCtrl                                   |   244|
+|125   |      Ps2Interface_i                             |Ps2Interface                                   |   211|
+|126   |  U_out_btn                                      |ELEV_out_btn                                   |   123|
+|127   |  U_speaker                                      |speaker                                        |    85|
+|128   |    Ung                                          |note_gen                                       |    61|
+|129   |    Usc                                          |speaker_control                                |    24|
+|130   |  u_led                                          |led                                            |    60|
++------+-------------------------------------------------+-----------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 767.559 ; gain = 537.820
+Finished Writing Synthesis Report : Time (s): cpu = 00:06:12 ; elapsed = 00:06:19 . Memory (MB): peak = 981.012 ; gain = 740.426
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 12 critical warnings and 534 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 767.559 ; gain = 201.672
-Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 767.559 ; gain = 537.820
+Synthesis finished with 0 errors, 0 critical warnings and 1207 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:06:10 . Memory (MB): peak = 981.012 ; gain = 740.426
+Synthesis Optimization Complete : Time (s): cpu = 00:06:12 ; elapsed = 00:06:19 . Memory (MB): peak = 981.012 ; gain = 740.426
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 68 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 150 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 5 instances were transformed.
+  A total of 2 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 2 instances
-  LD => LDCE: 3 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-207 Infos, 146 Warnings, 12 Critical Warnings and 0 Errors encountered.
+250 Infos, 308 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 767.559 ; gain = 541.836
-INFO: [Common 17-1381] The checkpoint 'D:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/synth_1/top.dcp' has been generated.
+synth_design: Time (s): cpu = 00:06:14 ; elapsed = 00:06:23 . Memory (MB): peak = 981.012 ; gain = 751.902
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.runs/synth_1/top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 767.559 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Fri Jun  9 07:55:04 2023...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 981.012 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 14 23:14:05 2023...
