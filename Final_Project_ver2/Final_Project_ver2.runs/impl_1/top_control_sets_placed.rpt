@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-| Date         : Wed Jun 14 23:15:41 2023
+| Date         : Fri Jun 16 02:06:48 2023
 | Host         : DESKTOP-BFEUL52 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
 | Design       : top
@@ -22,8 +22,8 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Number of unique control sets                            |    21 |
-| Unused register locations in slices containing registers |    78 |
+| Number of unique control sets                            |    20 |
+| Unused register locations in slices containing registers |    74 |
 +----------------------------------------------------------+-------+
 
 
@@ -33,12 +33,12 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              49 |           24 |
-| No           | No                    | Yes                    |             153 |           62 |
+| No           | No                    | No                     |              37 |           20 |
+| No           | No                    | Yes                    |             153 |           61 |
 | No           | Yes                   | No                     |             167 |           51 |
-| Yes          | No                    | No                     |               5 |            5 |
-| Yes          | No                    | Yes                    |              42 |           15 |
-| Yes          | Yes                   | No                     |              10 |            4 |
+| Yes          | No                    | No                     |               5 |            3 |
+| Yes          | No                    | Yes                    |              42 |           13 |
+| Yes          | Yes                   | No                     |              10 |            5 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
@@ -51,24 +51,23 @@ Table of Contents
 |  clk_IBUF_BUFG               | U_keyboard/inst/Ps2Interface_i/ps2_clk_s1        | rst_IBUF                            |                1 |              1 |
 |  clk_IBUF_BUFG               | U_keyboard/inst/Ps2Interface_i/ps2_data_s1       | rst_IBUF                            |                1 |              1 |
 |  U_VGA/clk_wiz_0_inst/out[0] |                                                  | rst_IBUF                            |                2 |              2 |
-|  U_speaker/Usc/p_0_in        |                                                  | rst_IBUF                            |                3 |              3 |
+|  U_speaker/Usc/p_0_in        |                                                  | rst_IBUF                            |                2 |              3 |
 |  clk_IBUF_BUFG               | U_keyboard/inst/Ps2Interface_i/bits_count        | rst_IBUF                            |                2 |              4 |
-|  clk_IBUF_BUFG               | U_FSM/state[4]_i_1_n_0                           |                                     |                5 |              5 |
-|  clk_IBUF_BUFG               | U_keyboard/inst/Ps2Interface_i/rx_valid          | rst_IBUF                            |                3 |              8 |
-|  clk_IBUF_BUFG               | U_keyboard/inst/Ps2Interface_i/rx_finish         | rst_IBUF                            |                2 |              8 |
+|  clk_IBUF_BUFG               | U_FSM/state[4]_i_1_n_0                           |                                     |                3 |              5 |
+|  clk_IBUF_BUFG               | U_keyboard/inst/Ps2Interface_i/rx_finish         | rst_IBUF                            |                1 |              8 |
+|  clk_IBUF_BUFG               | U_keyboard/inst/Ps2Interface_i/rx_valid          | rst_IBUF                            |                2 |              8 |
 |  clk_IBUF_BUFG               | U_keyboard/inst/E[0]                             | rst_IBUF                            |                2 |              9 |
-|  U_100Hz/CLK                 |                                                  | rst_IBUF                            |                2 |             10 |
+|  U_100Hz/CLK                 |                                                  | rst_IBUF                            |                3 |             10 |
 |  U_VGA/clk_wiz_0_inst/out[0] |                                                  | U_VGA/vga_inst/pixel_cnt[9]_i_1_n_0 |                4 |             10 |
-|  U_VGA/clk_wiz_0_inst/out[0] | U_VGA/vga_inst/line_cnt                          | U_VGA/vga_inst/line_cnt[9]_i_1_n_0  |                4 |             10 |
+|  U_VGA/clk_wiz_0_inst/out[0] | U_VGA/vga_inst/line_cnt                          | U_VGA/vga_inst/line_cnt[9]_i_1_n_0  |                5 |             10 |
 |  clk_IBUF_BUFG               | U_keyboard/inst/Ps2Interface_i/frame[10]_i_1_n_0 | rst_IBUF                            |                4 |             11 |
-|  U_VGA/clk_wiz_0_inst/out[0] |                                                  |                                     |                4 |             12 |
 |  clk_IBUF_BUFG               |                                                  | u_led/n_reg[30]_0                   |                9 |             31 |
 |  clk_IBUF_BUFG               |                                                  | U_in_btn/n[30]_i_1_n_0              |                9 |             31 |
 |  clk_IBUF_BUFG               |                                                  | U_out_btn/n_reg[30]_0               |                9 |             31 |
 |  clk_IBUF_BUFG               |                                                  | U_FSM/n[30]_i_1__1_n_0              |                9 |             31 |
 |  clk_IBUF_BUFG               |                                                  | U_door/n_reg[30]_0                  |                9 |             31 |
 |  clk_IBUF_BUFG               |                                                  |                                     |               20 |             37 |
-|  clk_IBUF_BUFG               |                                                  | rst_IBUF                            |               57 |            140 |
+|  clk_IBUF_BUFG               |                                                  | rst_IBUF                            |               56 |            140 |
 +------------------------------+--------------------------------------------------+-------------------------------------+------------------+----------------+
 
 
@@ -84,7 +83,6 @@ Table of Contents
 | 9      |                     1 |
 | 10     |                     3 |
 | 11     |                     1 |
-| 12     |                     1 |
 | 16+    |                     7 |
 +--------+-----------------------+
 

@@ -430,6 +430,8 @@ module top(
         .clk                (clk),
         .rst                (rst),
         .now_floor          (now_floor),
+        .pointer            (pointer),
+        .door_state         (door_state),
         .vgaRed             (vgaRed),
         .vgaGreen           (vgaGreen),
         .vgaBlue            (vgaBlue),

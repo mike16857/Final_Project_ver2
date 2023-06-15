@@ -30,14 +30,14 @@ set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property ip_output_repo c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/zz1f.coe
-add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/zz2f.coe
-add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/zz3f.coe
-add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/zz4f.coe
-add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/out1.coe
-add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/out2.coe
-add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/out3.coe
-add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/out4.coe
+add_files C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/zz1f.coe
+add_files C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/zz2f.coe
+add_files C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/zz3f.coe
+add_files C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/zz4f.coe
+add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/z_up.coe
+add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/z_down.coe
+add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/zz_open.coe
+add_files c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/zz_close.coe
 read_verilog -library xil_defaultlib {
   C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/BCD_to_SSD_decoder.v
   C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/ELEV_in_btn.v
@@ -62,16 +62,28 @@ read_verilog -library xil_defaultlib {
   C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/z1_vga/vga.v
   C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/new/top.v
 }
-read_ip -quiet c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_3/blk_mem_gen_3.xci
+read_ip -quiet c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_7/blk_mem_gen_7.xci
+set_property used_in_implementation false [get_files -all c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_7/blk_mem_gen_7_ooc.xdc]
+
+read_ip -quiet c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_6/blk_mem_gen_6.xci
+set_property used_in_implementation false [get_files -all c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_6/blk_mem_gen_6_ooc.xdc]
+
+read_ip -quiet c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_5/blk_mem_gen_5.xci
+set_property used_in_implementation false [get_files -all c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_5/blk_mem_gen_5_ooc.xdc]
+
+read_ip -quiet c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_4/blk_mem_gen_4.xci
+set_property used_in_implementation false [get_files -all c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_4/blk_mem_gen_4_ooc.xdc]
+
+read_ip -quiet C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_3/blk_mem_gen_3.xci
 set_property used_in_implementation false [get_files -all c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_3/blk_mem_gen_3_ooc.xdc]
 
-read_ip -quiet c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2.xci
+read_ip -quiet C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2.xci
 set_property used_in_implementation false [get_files -all c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2_ooc.xdc]
 
-read_ip -quiet c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_1_1/blk_mem_gen_1.xci
+read_ip -quiet C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_1_1/blk_mem_gen_1.xci
 set_property used_in_implementation false [get_files -all c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_1_1/blk_mem_gen_1_ooc.xdc]
 
-read_ip -quiet c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+read_ip -quiet C:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
 set_property used_in_implementation false [get_files -all c:/Xilinx_Logic_Design_Lab/Final_Project_ver2/Final_Project_ver2/Final_Project_ver2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being

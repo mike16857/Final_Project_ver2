@@ -16,12 +16,29 @@ module mem_addr_gen(
 //  else
 //    position <= 0;
 //end
-    always @*
-        if (v_cnt < 40 || v_cnt > 440)
-            pixel_addr = (v_cnt) * 180 + h_cnt;
-        else if (v_cnt > 150 && v_cnt < 330 && h_cnt > 405 && h_cnt < 555)
-            pixel_addr = (v_cnt - 150) * 180 + h_cnt - 405;
-        else 
+    always@*
+        if(v_cnt < 128 | v_cnt >191)
             pixel_addr = 0;
-               
+        else if(h_cnt < 64)
+            pixel_addr = (v_cnt - 128) * 64 + h_cnt;
+        else if(h_cnt < 128)
+            pixel_addr = (v_cnt - 128) * 64 + h_cnt - 64;
+        else if(h_cnt < 192)
+            pixel_addr = (v_cnt - 128) * 64 + h_cnt - 128;
+        else if(h_cnt < 256)
+            pixel_addr = (v_cnt - 128) * 64 + h_cnt - 192;
+        else if(h_cnt < 320)
+            pixel_addr = (v_cnt - 128) * 64 + h_cnt - 256;
+        else if(h_cnt < 384)
+            pixel_addr = (v_cnt - 128) * 64 + h_cnt - 320;
+        else if(h_cnt < 448)
+            pixel_addr = (v_cnt - 128) * 64 + h_cnt - 384;
+        else if(h_cnt < 512)
+            pixel_addr = (v_cnt - 128) * 64 + h_cnt - 448;
+        else if(h_cnt < 576)
+            pixel_addr = (v_cnt - 128) * 64 + h_cnt - 512;
+        else if(h_cnt < 640)
+            pixel_addr = (v_cnt - 128) * 64 + h_cnt - 576;
+        else pixel_addr = 0;
+    
 endmodule
